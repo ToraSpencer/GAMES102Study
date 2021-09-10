@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{163FA6AC-9184-3C9B-BABE-3587111EE4B9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UECS_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UECS_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UECS_cored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UECS_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UECS_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UECS_core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UECS_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UECS_core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UECS_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/uecs-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/uecs-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/uecs-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/uecs-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/uecs-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/uecs-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/uecs-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/uecs-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\ArchetypeFilter.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\ChunkView.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptLocator.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptPtr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptTag.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptType.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptsView.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\Entity.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\EntityMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\EntityQuery.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\IListener.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\RTDCmptTraits.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\RandomAccessor.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\Schedule.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SingletonLocator.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SingletonsView.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SystemMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SystemTraits.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\World.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\config.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Archetype.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Archetype.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ArchetypeCmptTraits.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ArchetypeCmptTraits.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Chunk.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ChunkView.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTag.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptType.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTypeSet.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTypeSet.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptsLocator.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\EntityMngr.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\EntityQuery.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Job.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\RTDCmptTraits.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Schedule.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SingletonLocator.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemFunc.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemFunc.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemMngr.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemTraits.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Util.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Util.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\World.inl" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Archetype.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\ArchetypeFilter.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Chunk.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\ChunkView.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CmptLocator.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CmptsView.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\EntityMngr.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Schedule.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SingletonLocator.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SingletonsView.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SysFuncGraph.cpp" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SysFuncGraph.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemFunc.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemMngr.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemTraits.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\ZERO_CHECK.vcxproj">
+      <Project>{7E1BA33C-35A9-300A-AF26-855A67D039EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\core\UContainer_core.vcxproj">
+      <Project>{1E5701F1-8D4D-3730-8CEB-1D60400803AC}</Project>
+      <Name>UContainer_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\core\UGraphviz_core.vcxproj">
+      <Project>{43D33E96-A1B6-3D67-BD2C-F913A7334087}</Project>
+      <Name>UGraphviz_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\core\Graph.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\core\Registry.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\core\Subgraph.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include\UGraphviz\Graph.h">
+      <Filter>include\UGraphviz</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include\UGraphviz\Registry.h">
+      <Filter>include\UGraphviz</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include\UGraphviz\Subgraph.h">
+      <Filter>include\UGraphviz</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include\UGraphviz\UGraphviz.h">
+      <Filter>include\UGraphviz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{E00659F3-6938-3767-8B91-E7F8ABFD0D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGraphviz">
+      <UniqueIdentifier>{957D054F-2167-3984-8B07-24F3B19C402B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

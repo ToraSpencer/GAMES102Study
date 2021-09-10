@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\Render\01_shader_refl\main.cpp">
+      <Filter>01_shader_refl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\Render\01_shader_refl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_shader_refl">
+      <UniqueIdentifier>{7F02CF4C-CA1D-3029-8ED5-20C5E223E9A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

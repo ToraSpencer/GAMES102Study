@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\08_special_member\main.cpp">
+      <Filter>08_special_member</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\08_special_member\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="08_special_member">
+      <UniqueIdentifier>{C60CC101-BD80-346C-8964-EFF2D0D2E2DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\CustomID.h">
+      <Filter>include\UDP\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\Dirty.h">
+      <Filter>include\UDP\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\Read.h">
+      <Filter>include\UDP\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\details\CustomID.inl">
+      <Filter>include\UDP\Basic\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\details\vtable.inl">
+      <Filter>include\UDP\Basic\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Basic\vtable.h">
+      <Filter>include\UDP\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Signal\Connection.h">
+      <Filter>include\UDP\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Signal\Signal.h">
+      <Filter>include\UDP\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Signal\details\Signal.inl">
+      <Filter>include\UDP\Signal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\Visitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\cVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\cicVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\cincVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\Visitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\cVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\cicVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\cincVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\ncVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\ncicVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\details\ncincVisitor.inl">
+      <Filter>include\UDP\Visitor\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\ncVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\ncicVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include\UDP\Visitor\ncincVisitor.h">
+      <Filter>include\UDP\Visitor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP">
+      <UniqueIdentifier>{380C207F-F998-39A5-9DF3-572F10334C1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Basic">
+      <UniqueIdentifier>{E7AE16C1-BBC6-3364-855E-BDF367EFD742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Basic\details">
+      <UniqueIdentifier>{17027920-B38C-3A51-9340-B924A45641EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Signal">
+      <UniqueIdentifier>{1B1D8E9D-2B7B-3F4A-9938-6ECF95021205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Signal\details">
+      <UniqueIdentifier>{715CCCC9-1345-39D2-BC06-1EA6FAE4F566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Visitor">
+      <UniqueIdentifier>{4C6B57FF-802F-3477-993D-C7F9EF48DD21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDP\Visitor\details">
+      <UniqueIdentifier>{986C361A-B2FB-3E16-A600-24EEDD994709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

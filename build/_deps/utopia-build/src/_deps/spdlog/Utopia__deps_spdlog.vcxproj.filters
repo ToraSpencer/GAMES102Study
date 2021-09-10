@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\async.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\cfg.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\color_sinks.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\file_sinks.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\fmt.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\spdlog.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\stdout_sinks.cpp">
+      <Filter>spdlog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async_logger-inl.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async_logger.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\argv.h">
+      <Filter>include\_deps\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\env.h">
+      <Filter>include\_deps\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\helpers-inl.h">
+      <Filter>include\_deps\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\helpers.h">
+      <Filter>include\_deps\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\common-inl.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\common.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\backtracer-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\backtracer.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\circular_q.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\console_globals.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\file_helper-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\file_helper.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\fmt_helper.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg_buffer-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg_buffer.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\mpmc_blocking_q.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\null_mutex.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\os-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\os.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\periodic_worker-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\periodic_worker.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\registry-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\registry.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\synchronous_factory.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\tcp_client-windows.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\tcp_client.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\thread_pool-inl.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\thread_pool.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\windows_include.h">
+      <Filter>include\_deps\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bin_to_hex.h">
+      <Filter>include\_deps\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\chrono.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\color.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\compile.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\core.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\format-inl.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\format.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\locale.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\os.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\ostream.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\posix.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\printf.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\ranges.h">
+      <Filter>include\_deps\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\chrono.h">
+      <Filter>include\_deps\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\fmt.h">
+      <Filter>include\_deps\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\ostr.h">
+      <Filter>include\_deps\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\formatter.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fwd.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\logger-inl.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\logger.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\pattern_formatter-inl.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\pattern_formatter.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\android_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ansicolor_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\base_sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\base_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\basic_file_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\daily_file_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\dist_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\dup_filter_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\msvc_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\null_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ostream_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ringbuffer_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\rotating_file_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_color_sinks.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_sinks.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\syslog_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\systemd_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\tcp_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\win_eventlog_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\wincolor_sink.h">
+      <Filter>include\_deps\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\spdlog-inl.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\spdlog.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\stopwatch.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\tweakme.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\version.h">
+      <Filter>include\_deps\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{31B4539C-4C30-35A0-982D-B3738000DAF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C78007B-FD87-301A-A5DD-A7F36EAC6626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps">
+      <UniqueIdentifier>{91EE7D60-A369-31BB-92DF-734AF120DC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog">
+      <UniqueIdentifier>{0577A337-24DA-349E-9D05-B133C56E4198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog\cfg">
+      <UniqueIdentifier>{35CF6595-BCB8-383E-AA26-D51CC52B755E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog\details">
+      <UniqueIdentifier>{3D268AFA-E856-31E2-B0E1-2CF8812F187B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog\fmt">
+      <UniqueIdentifier>{D062C9F7-BE48-3B8D-B53C-4DF6D0EB5BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog\fmt\bundled">
+      <UniqueIdentifier>{F304F7F3-92A1-3E2A-882C-13A9761B10F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\spdlog\sinks">
+      <UniqueIdentifier>{55E4AB3C-444F-306F-AA1A-720CE500564D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spdlog">
+      <UniqueIdentifier>{5ABF8E17-87C3-377A-8C8F-7752A9FD14DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

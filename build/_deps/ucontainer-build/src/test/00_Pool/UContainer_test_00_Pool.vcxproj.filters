@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\00_Pool\main.cpp">
+      <Filter>00_Pool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\00_Pool\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_Pool">
+      <UniqueIdentifier>{5CDE1EE4-59C2-3777-B0BF-DBF5FD614E37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

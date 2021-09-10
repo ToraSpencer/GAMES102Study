@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\App\02_world\WorldApp.cpp">
+      <Filter>02_world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\App\02_world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_world">
+      <UniqueIdentifier>{F4A6A5D8-4C43-38AF-8FC0-9F1D604F8549}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

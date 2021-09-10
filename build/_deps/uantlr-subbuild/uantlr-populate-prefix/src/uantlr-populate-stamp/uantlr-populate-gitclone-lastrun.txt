@@ -1,0 +1,3 @@
+repository='https://github.com/Ubpa/UANTLR'
+module=''
+tag='origin'

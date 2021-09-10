@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\tinyobjloader\tiny_obj_loader.cpp">
+      <Filter>tinyobjloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\tinyobjloader\tiny_obj_loader.h">
+      <Filter>include\_deps\tinyobjloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\tinyobjloader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps">
+      <UniqueIdentifier>{91EE7D60-A369-31BB-92DF-734AF120DC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\tinyobjloader">
+      <UniqueIdentifier>{8ED858E0-C0A0-37F3-9839-3952379F0C78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyobjloader">
+      <UniqueIdentifier>{209C70AB-D305-3CBB-8F35-C20C728712C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

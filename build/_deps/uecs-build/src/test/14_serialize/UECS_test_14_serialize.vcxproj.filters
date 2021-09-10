@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\14_serialize\main.cpp">
+      <Filter>14_serialize</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\14_serialize\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="14_serialize">
+      <UniqueIdentifier>{50F87E15-82BE-3DFA-B764-DF0EF35F5025}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

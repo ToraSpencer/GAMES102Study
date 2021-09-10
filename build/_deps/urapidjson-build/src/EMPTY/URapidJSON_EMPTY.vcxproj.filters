@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\allocators.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\cursorstreamwrapper.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\document.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\encodedstream.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\encodings.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\error\en.h">
+      <Filter>include\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\error\error.h">
+      <Filter>include\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\filereadstream.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\filewritestream.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\fwd.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\biginteger.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\clzll.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\diyfp.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\dtoa.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\ieee754.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\itoa.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\meta.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\pow10.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\regex.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\stack.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\strfunc.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\strtod.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\internal\swap.h">
+      <Filter>include\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\istreamwrapper.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\memorybuffer.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\memorystream.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\msinttypes\inttypes.h">
+      <Filter>include\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\msinttypes\stdint.h">
+      <Filter>include\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\ostreamwrapper.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\pointer.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\prettywriter.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\rapidjson.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\reader.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\schema.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\stream.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\stringbuffer.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\include\rapidjson\writer.h">
+      <Filter>include\rapidjson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rapidjson">
+      <UniqueIdentifier>{CB61C8BD-FF64-3AA5-A9AE-7965C36C19FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rapidjson\error">
+      <UniqueIdentifier>{9698700F-3FFB-3AC4-9E45-0894F4E58FC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rapidjson\internal">
+      <UniqueIdentifier>{3EABAF68-85F4-35DA-A280-B7A9143B6A45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rapidjson\msinttypes">
+      <UniqueIdentifier>{36242CFA-74B2-30E3-BE5B-93BF752DE119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

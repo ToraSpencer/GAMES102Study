@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\01_Algorithm\00_Set\main.cpp">
+      <Filter>00_Set</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\01_Algorithm\00_Set\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_Set">
+      <UniqueIdentifier>{508FDC51-1EC4-387A-AD8A-835A7F9E1DF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

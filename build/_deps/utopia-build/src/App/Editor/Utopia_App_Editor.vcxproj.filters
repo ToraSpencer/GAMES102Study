@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\InspectorRegistry.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Systems\HierarchySystem.cpp">
+      <Filter>Editor\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Systems\InspectorSystem.cpp">
+      <Filter>Editor\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Systems\LoggerSystem.cpp">
+      <Filter>Editor\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Systems\ProjectViewerSystem.cpp">
+      <Filter>Editor\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\Systems\SystemControllerSystem.cpp">
+      <Filter>Editor\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Components\Hierarchy.h">
+      <Filter>include\Utopia\App\Editor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Components\Inspector.h">
+      <Filter>include\Utopia\App\Editor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Components\ProjectViewer.h">
+      <Filter>include\Utopia\App\Editor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Components\SystemController.h">
+      <Filter>include\Utopia\App\Editor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Editor.h">
+      <Filter>include\Utopia\App\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\InspectorRegistry.h">
+      <Filter>include\Utopia\App\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\PlayloadType.h">
+      <Filter>include\Utopia\App\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Systems\HierarchySystem.h">
+      <Filter>include\Utopia\App\Editor\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Systems\InspectorSystem.h">
+      <Filter>include\Utopia\App\Editor\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Systems\LoggerSystem.h">
+      <Filter>include\Utopia\App\Editor\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Systems\ProjectViewerSystem.h">
+      <Filter>include\Utopia\App\Editor\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\Systems\SystemControllerSystem.h">
+      <Filter>include\Utopia\App\Editor\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\Editor\details\InspectorRegistry.inl">
+      <Filter>include\Utopia\App\Editor\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\Editor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{A75A71ED-F92A-3CC5-985D-9DE4CE16E45A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Systems">
+      <UniqueIdentifier>{E9E0DDB4-479B-3A91-8040-9B3A3C3B0DF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App">
+      <UniqueIdentifier>{6A1B8695-DD32-3AED-AE35-1A7C29172F1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App\Editor">
+      <UniqueIdentifier>{DA0370A4-8B70-34A4-BE03-53D2F6277DFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App\Editor\Components">
+      <UniqueIdentifier>{8DF91BA7-EB36-3C84-A118-A9FFFE0DDE46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App\Editor\Systems">
+      <UniqueIdentifier>{3B391054-2C89-3BFB-A2BE-FE9828F134A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App\Editor\details">
+      <UniqueIdentifier>{455A988A-EB57-3768-8231-DFDF72B7D5D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

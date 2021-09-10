@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\01_overload\main.cpp">
+      <Filter>01_overload</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\01_overload\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_overload">
+      <UniqueIdentifier>{4B51B2C9-85B6-3CDA-83E6-B3814F766C5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

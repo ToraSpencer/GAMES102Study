@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\10_instantiate\main.cpp">
+      <Filter>10_instantiate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\10_instantiate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="10_instantiate">
+      <UniqueIdentifier>{E21509CD-E29E-3714-ABE0-AF387EF0C07E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\src\test\09_ray\main.cpp">
+      <Filter>09_ray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\src\test\09_ray\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="09_ray">
+      <UniqueIdentifier>{517046B5-5DEA-3774-8C6B-F9DB280B9946}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

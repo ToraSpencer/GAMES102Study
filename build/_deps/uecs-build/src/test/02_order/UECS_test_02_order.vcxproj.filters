@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\02_order\main.cpp">
+      <Filter>02_order</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\02_order\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_order">
+      <UniqueIdentifier>{08B3D8D9-8F37-34AF-940B-8F3FB2E7BFF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

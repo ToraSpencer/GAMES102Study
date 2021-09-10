@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Blob.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\CmdQueue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\D3DInclude.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Desc.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\CPUDescriptorHeap.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapAllocMngr.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapAllocation.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapWrapper.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DynamicSuballocMngr.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\GPUDescriptorHeap.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\IDescriptorAllocator.cpp">
+      <Filter>core\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeapMngr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Device.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameGraph\Executor.cpp">
+      <Filter>core\FrameGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameGraph\RsrcMngr.cpp">
+      <Filter>core\FrameGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameResource.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameResourceMngr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\GCmdList.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\MeshGPUBuffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\ResourceDeleteBatch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\UploadBuffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Util.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AlphaTestEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AudioEngine.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BasicEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BasicPostProcess.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BinaryReader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BufferHelpers.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\CommonStates.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DDSTextureLoader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DebugEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DescriptorHeap.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DirectXHelpers.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DualPostProcess.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DualTextureEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DynamicSoundEffectInstance.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectCommon.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectFactory.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectPipelineStateDescription.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectTextureFactory.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EnvironmentMapEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GamePad.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GeometricPrimitive.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Geometry.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GraphicsMemory.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Keyboard.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LinearAllocator.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Model.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ModelLoadSDKMESH.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ModelLoadVBO.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Mouse.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\NormalMapEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PBREffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PBREffectFactory.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PrimitiveBatch.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ResourceUploadBatch.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ScreenGrab.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SimpleMath.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SkinnedEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundCommon.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundEffect.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundEffectInstance.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundStreamInstance.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SpriteBatch.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SpriteFont.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ToneMapPostProcess.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\VertexTypes.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WAVFileReader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WICTextureLoader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBank.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBankReader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\XboxDDSTextureLoader.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\pch.cpp">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Blob.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\CmdQueue.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\D3DInclude.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Desc.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\CPUDescriptorHeap.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapAllocMngr.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapAllocation.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapWrapper.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DynamicSuballocMngr.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\GPUDescriptorHeap.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\IDescriptorAllocator.h">
+      <Filter>include\UDX12\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeapMngr.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Device.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\Executor.h">
+      <Filter>include\UDX12\FrameGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\FrameGraph.h">
+      <Filter>include\UDX12\FrameGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\Rsrc.h">
+      <Filter>include\UDX12\FrameGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\RsrcMngr.h">
+      <Filter>include\UDX12\FrameGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameResource.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameResourceMngr.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\GCmdList.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\MeshGPUBuffer.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\ResourceDeleteBatch.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\UDX12.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\UploadBuffer.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Util.h">
+      <Filter>include\UDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Audio.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\BufferHelpers.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\CommonStates.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DDSTextureLoader.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DescriptorHeap.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DirectXHelpers.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DirectXTK12.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\EffectPipelineStateDescription.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Effects.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GamePad.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GeometricPrimitive.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GraphicsMemory.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Keyboard.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Model.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Mouse.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\PostProcess.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\PrimitiveBatch.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\RenderTargetState.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\ResourceUploadBatch.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\ScreenGrab.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SimpleMath.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SimpleMath.inl">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SpriteBatch.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SpriteFont.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\VertexTypes.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\WICTextureLoader.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\XboxDDSTextureLoader.h">
+      <Filter>include\UDX12\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\d3dx12.h">
+      <Filter>include\UDX12\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\FrameRsrcMngr.inl">
+      <Filter>include\UDX12\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\GCmdList.inl">
+      <Filter>include\UDX12\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\UploadBuffer.inl">
+      <Filter>include\UDX12\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AlignedNew.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Bezier.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BinaryReader.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DDS.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DemandCreate.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectCommon.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Geometry.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LinearAllocator.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LoaderHelpers.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PlatformHelpers.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SDKMesh.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SharedResourcePool.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundCommon.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WAVFileReader.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBankReader.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\d3dx12.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\pch.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\vbo.h">
+      <Filter>core\_deps\DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\CompileShaders.cmd" />
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc">
+      <Filter>core\_deps\DirectXTK12\Shaders\Compiled</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{31B4539C-4C30-35A0-982D-B3738000DAF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C78007B-FD87-301A-A5DD-A7F36EAC6626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{E00659F3-6938-3767-8B91-E7F8ABFD0D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\DescriptorHeap">
+      <UniqueIdentifier>{C12BAB6D-8531-3859-B0C5-CD4A82575CED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\FrameGraph">
+      <UniqueIdentifier>{4419E9B3-6E5A-3AE0-B6C9-0F37E3034080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\_deps">
+      <UniqueIdentifier>{6BF3EF96-A337-3755-9D7D-E48FB24D6C27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\_deps\DirectXTK12">
+      <UniqueIdentifier>{C9D1DCD9-9BFB-3A15-8518-A10F80ED92DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\_deps\DirectXTK12\Shaders">
+      <UniqueIdentifier>{02366C49-F6ED-32CF-A395-191A362AB715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\_deps\DirectXTK12\Shaders\Compiled">
+      <UniqueIdentifier>{7723A6C7-3DA0-31D7-9EAE-C03274F571B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12">
+      <UniqueIdentifier>{6022DDB3-FF99-3AFF-A77D-7952AE0CF47F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12\DescriptorHeap">
+      <UniqueIdentifier>{12B60E34-4BD4-3064-8D89-3D37D6187ADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12\FrameGraph">
+      <UniqueIdentifier>{63E7674C-B095-3235-B73C-2B3A10A2E850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12\_deps">
+      <UniqueIdentifier>{BD293A8F-75EE-3D18-A2BD-0921C633C9FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12\_deps\DirectXTK12">
+      <UniqueIdentifier>{3C923D75-D645-317B-8956-4D3078B2AD72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UDX12\details">
+      <UniqueIdentifier>{6EE04427-65D1-3430-9403-43022FCF4DD8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

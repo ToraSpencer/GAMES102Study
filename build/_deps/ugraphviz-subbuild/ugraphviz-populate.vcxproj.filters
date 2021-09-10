@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\a19b4c305b92bb82196186e01de4e410\ugraphviz-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\f492181689f37e0d7d93ff2996439e94\ugraphviz-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\830cee7f6c9d089b1ee12507cc9909aa\ugraphviz-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\ugraphviz-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B777FD70-7CD0-3AC4-8140-36D50D6BFB53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

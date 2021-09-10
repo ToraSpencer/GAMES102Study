@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\EMPTY\main.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\Attr.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\AttrList.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\Base.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\BaseList.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\ElemList.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\Field.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\FieldList.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\NamedValue.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\TStr.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\TypeInfo.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\TypeInfoBase.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\USRefl.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\Util.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\config.h">
+      <Filter>include\USRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\Attr.inl">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\ElemList.inl">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\FieldTraits.h">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\TStr.inl">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\TypeInfoBase.inl">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl\detail\Util.inl">
+      <Filter>include\USRefl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include\USRefl_99.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\USRefl">
+      <UniqueIdentifier>{3B8CDCC2-3FE9-3A10-8E8D-5B4ACEBC75F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\USRefl\detail">
+      <UniqueIdentifier>{FDB65052-6FD3-3BBB-96FE-599EE6AE11E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

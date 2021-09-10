@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\EMPTY\main.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\include\ULuaPP\ULuaPP.h">
+      <Filter>include\ULuaPP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\include\ULuaPP\details\ULuaPP.inl">
+      <Filter>include\ULuaPP\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\include\_deps\sol\config.hpp">
+      <Filter>include\_deps\sol</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\include\_deps\sol\forward.hpp">
+      <Filter>include\_deps\sol</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\include\_deps\sol\sol.hpp">
+      <Filter>include\_deps\sol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ULuaPP">
+      <UniqueIdentifier>{DA32018B-2B06-3DAE-A96D-A11D7E411647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ULuaPP\details">
+      <UniqueIdentifier>{59471130-5D78-3DE6-A075-90CD30E2B9F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps">
+      <UniqueIdentifier>{91EE7D60-A369-31BB-92DF-734AF120DC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\sol">
+      <UniqueIdentifier>{5F65DE4D-3A81-30A0-B9A6-F5D4241BAEA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

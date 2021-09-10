@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAFE49F0-D968-3E0A-9F84-4D63FA4B77D2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\cmake\InitUCMake.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\config\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\cmake\InitUCMake.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\config\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\cmake\InitUCMake.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\config\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\cmake\InitUCMake.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\config\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\ZERO_CHECK.vcxproj">
+      <Project>{7E1BA33C-35A9-300A-AF26-855A67D039EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-build\src\ParserCpp14\UANTLR_ParserCpp14.vcxproj">
+      <Project>{8D7E9FD7-6392-35C1-8ADE-C6BD44F66EF8}</Project>
+      <Name>UANTLR_ParserCpp14</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-build\src\runtime\UANTLR_runtime.vcxproj">
+      <Project>{FE3D561F-BE14-3638-A416-CC99627B50D7}</Project>
+      <Name>UANTLR_runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-build\src\test\01_cpp14\UANTLR_test_01_cpp14.vcxproj">
+      <Project>{C08D1D0C-A3FA-333A-A91F-3D8B84B10BBA}</Project>
+      <Name>UANTLR_test_01_cpp14</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\core\UContainer_core.vcxproj">
+      <Project>{1E5701F1-8D4D-3730-8CEB-1D60400803AC}</Project>
+      <Name>UContainer_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\test\00_Pool\UContainer_test_00_Pool.vcxproj">
+      <Project>{8E783292-3DAA-30A9-A334-E285892BBF6A}</Project>
+      <Name>UContainer_test_00_Pool</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\test\01_Algorithm\00_Set\UContainer_test_01_Algorithm_00_Set.vcxproj">
+      <Project>{A625E6DA-2F49-331C-8453-75610EC78478}</Project>
+      <Name>UContainer_test_01_Algorithm_00_Set</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\test\02_VarSizeAllocMngr\UContainer_test_02_VarSizeAllocMngr.vcxproj">
+      <Project>{9C961655-172C-33AE-AC64-38969E884E87}</Project>
+      <Name>UContainer_test_02_VarSizeAllocMngr</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\test\03_Span\UContainer_test_03_Span.vcxproj">
+      <Project>{CCA7FE2D-B811-31A4-B6E6-ED1CC2A9AAB4}</Project>
+      <Name>UContainer_test_03_Span</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\EMPTY\UDP_EMPTY.vcxproj">
+      <Project>{413CD0D6-06AF-3953-8E45-A6320AADDEA7}</Project>
+      <Name>UDP_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\test\00_Visitor\UDP_test_00_Visitor.vcxproj">
+      <Project>{8CACCA2F-5414-3358-8594-843024E71F61}</Project>
+      <Name>UDP_test_00_Visitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\test\02_vtable\00_basic\UDP_test_02_vtable_00_basic.vcxproj">
+      <Project>{08623F55-687E-3A50-82BA-D95A1BCCEFA8}</Project>
+      <Name>UDP_test_02_vtable_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\test\02_vtable\01_heapobj\UDP_test_02_vtable_01_heapobj.vcxproj">
+      <Project>{B8B433E6-6F4F-340B-AA58-A78B706EA840}</Project>
+      <Name>UDP_test_02_vtable_01_heapobj</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\test\03_Signal\UDP_test_03_Signal.vcxproj">
+      <Project>{8B56E672-A441-3491-A9C0-8CE8383EA244}</Project>
+      <Name>UDP_test_03_Signal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-build\src\test\04_dirty\UDP_test_04_dirty.vcxproj">
+      <Project>{DC866F9C-817E-3B87-B746-87C9D29437E4}</Project>
+      <Name>UDP_test_04_dirty</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\UDX12_core.vcxproj">
+      <Project>{D9C3953F-B38F-3BD7-9D2D-A127ED5898E3}</Project>
+      <Name>UDX12_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\test\00_init\UDX12_test_00_init.vcxproj">
+      <Project>{2BCEB5FD-570D-3536-A0AE-BA030E7ED960}</Project>
+      <Name>UDX12_test_00_init</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\test\common\UDX12_test_common.vcxproj">
+      <Project>{55B50693-6427-3742-88DA-241F922A1688}</Project>
+      <Name>UDX12_test_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\app\CmptHashCode\UECS_app_CmptHashCode.vcxproj">
+      <Project>{BF465FEA-A24E-3C09-A126-5EFDA0BD13B9}</Project>
+      <Name>UECS_app_CmptHashCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\UECS_core.vcxproj">
+      <Project>{163FA6AC-9184-3C9B-BABE-3587111EE4B9}</Project>
+      <Name>UECS_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\00_basic\UECS_test_00_basic.vcxproj">
+      <Project>{AFF578BB-6348-3BBC-AFEF-C9B4A91DB32A}</Project>
+      <Name>UECS_test_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\01_tag\UECS_test_01_tag.vcxproj">
+      <Project>{E2EAD89E-5D62-392C-8D6C-390DD8B37E4D}</Project>
+      <Name>UECS_test_01_tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\02_order\UECS_test_02_order.vcxproj">
+      <Project>{BB99338D-CBED-3F63-93A9-65852DD81E97}</Project>
+      <Name>UECS_test_02_order</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\03_query_entity\UECS_test_03_query_entity.vcxproj">
+      <Project>{5606B29E-7924-3814-B501-37D67D448175}</Project>
+      <Name>UECS_test_03_query_entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\04_filter\UECS_test_04_filter.vcxproj">
+      <Project>{642B883B-E4B4-3C49-B450-E5C8998E3F2A}</Project>
+      <Name>UECS_test_04_filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\05_alignment\UECS_test_05_alignment.vcxproj">
+      <Project>{BC5A32CE-2618-3890-87C1-4F086C979809}</Project>
+      <Name>UECS_test_05_alignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\06_none_parallel\UECS_test_06_none_parallel.vcxproj">
+      <Project>{9265A96F-D08F-3BF1-B4A2-A48DD88B3C91}</Project>
+      <Name>UECS_test_06_none_parallel</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\07_overload\UECS_test_07_overload.vcxproj">
+      <Project>{852E29AE-D1AD-304C-BEB9-CFDD64B44CEB}</Project>
+      <Name>UECS_test_07_overload</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\08_job\UECS_test_08_job.vcxproj">
+      <Project>{C68E154F-381B-332F-A80F-CD14F292AE46}</Project>
+      <Name>UECS_test_08_job</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\10_instantiate\UECS_test_10_instantiate.vcxproj">
+      <Project>{C20937FB-79CD-3C66-A59A-AB8FEFF84B48}</Project>
+      <Name>UECS_test_10_instantiate</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\11_runtime_cmpt\UECS_test_11_runtime_cmpt.vcxproj">
+      <Project>{624E0155-F0CD-3163-85F4-1FF18825EA98}</Project>
+      <Name>UECS_test_11_runtime_cmpt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\12_framegraph\UECS_test_12_framegraph.vcxproj">
+      <Project>{0ABDFA1B-A7E6-37CD-88F5-A677E5826308}</Project>
+      <Name>UECS_test_12_framegraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\13_performance\UECS_test_13_performance.vcxproj">
+      <Project>{A842FD2C-6AEF-369B-864A-7823C81CF4DE}</Project>
+      <Name>UECS_test_13_performance</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\14_serialize\UECS_test_14_serialize.vcxproj">
+      <Project>{2405ECAF-E84E-351A-8F04-920A4B9F5169}</Project>
+      <Name>UECS_test_14_serialize</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\15_chunk_job\UECS_test_15_chunk_job.vcxproj">
+      <Project>{9EC931A6-6F8A-318E-BE2A-2E1F07AB7F0F}</Project>
+      <Name>UECS_test_15_chunk_job</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\16_singleton\UECS_test_16_singleton.vcxproj">
+      <Project>{86BCA3D8-FC4F-3F0B-A53B-51F22CE84B38}</Project>
+      <Name>UECS_test_16_singleton</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\17_serial\UECS_test_17_serial.vcxproj">
+      <Project>{2AC64D13-D68B-3919-92B3-3ABDC9D36DE8}</Project>
+      <Name>UECS_test_17_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\18_copy\UECS_test_18_copy.vcxproj">
+      <Project>{19B9D4BA-D1EC-301A-A451-73E872D434DF}</Project>
+      <Name>UECS_test_18_copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\19_direct_run\UECS_test_19_direct_run.vcxproj">
+      <Project>{125FA334-D37C-3B09-98F4-B213DA3863CB}</Project>
+      <Name>UECS_test_19_direct_run</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\20_system_lifecycle\UECS_test_20_system_lifecycle.vcxproj">
+      <Project>{967D36E4-F888-3DED-8C86-AEDD7F436832}</Project>
+      <Name>UECS_test_20_system_lifecycle</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\test\21_random\UECS_test_21_random.vcxproj">
+      <Project>{24650CF8-9FA1-3D41-94EB-16877A638A22}</Project>
+      <Name>UECS_test_21_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-build\src\core\UFG_core.vcxproj">
+      <Project>{6F95A30C-A8C4-33E3-9A4B-455E151FF6DC}</Project>
+      <Name>UFG_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-build\src\test\00_basic\UFG_test_00_basic.vcxproj">
+      <Project>{B80A50C1-C2F3-37DA-8BCA-B740762A39F5}</Project>
+      <Name>UFG_test_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-build\src\test\01_reuse\UFG_test_01_reuse.vcxproj">
+      <Project>{59512CDF-0C5C-3961-9C10-BB6C4A35D919}</Project>
+      <Name>UFG_test_01_reuse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\EMPTY\UGM_EMPTY.vcxproj">
+      <Project>{40BBBA2B-B566-3052-90C4-BC126647F19D}</Project>
+      <Name>UGM_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\00_val\UGM_test_00_val.vcxproj">
+      <Project>{E3FF5876-1E90-3852-ABB6-24D4E2BA3FE5}</Project>
+      <Name>UGM_test_00_val</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\01_vec\UGM_test_01_vec.vcxproj">
+      <Project>{CDA1F78D-6A81-31BF-8439-E486BCCFAC60}</Project>
+      <Name>UGM_test_01_vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\02_point\UGM_test_02_point.vcxproj">
+      <Project>{C027D8E1-0353-336E-9CA7-D9656C18608E}</Project>
+      <Name>UGM_test_02_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\03_mat\UGM_test_03_mat.vcxproj">
+      <Project>{37E2033F-E9BC-35D6-BE2A-FACD8FA387D0}</Project>
+      <Name>UGM_test_03_mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\04_rgb_scale\UGM_test_04_rgb_scale.vcxproj">
+      <Project>{5998545E-506C-324A-BD36-1E012F228805}</Project>
+      <Name>UGM_test_04_rgb_scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\05_quat\UGM_test_05_quat.vcxproj">
+      <Project>{14BC9145-269E-319C-8AB8-DF530809F61F}</Project>
+      <Name>UGM_test_05_quat</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\06_transform\UGM_test_06_transform.vcxproj">
+      <Project>{EA74329A-FF9E-3087-AB82-D1FEE7FAD157}</Project>
+      <Name>UGM_test_06_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\07_bbox\UGM_test_07_bbox.vcxproj">
+      <Project>{B7A882CA-C6B7-3E3E-91B8-CE4DA44C1DD9}</Project>
+      <Name>UGM_test_07_bbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\08_line\UGM_test_08_line.vcxproj">
+      <Project>{8D125730-D5CC-3DA9-8DE6-ADC0F363C2C7}</Project>
+      <Name>UGM_test_08_line</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\09_ray\UGM_test_09_ray.vcxproj">
+      <Project>{9A079538-9127-32AC-A100-78D02BD295BD}</Project>
+      <Name>UGM_test_09_ray</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\10_simd\UGM_test_10_simd.vcxproj">
+      <Project>{05B65B72-02FB-3864-92CB-83D7EBBE9333}</Project>
+      <Name>UGM_test_10_simd</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\11_hvec\UGM_test_11_hvec.vcxproj">
+      <Project>{E6A85B29-4752-36D4-AC31-F7593ADDC8A8}</Project>
+      <Name>UGM_test_11_hvec</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-build\src\test\12_v3\UGM_test_12_v3.vcxproj">
+      <Project>{41D21BBD-21C4-3565-9790-DE61A2665187}</Project>
+      <Name>UGM_test_12_v3</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\core\UGraphviz_core.vcxproj">
+      <Project>{43D33E96-A1B6-3D67-BD2C-F913A7334087}</Project>
+      <Name>UGraphviz_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\test\00_basic\UGraphviz_test_00_basic.vcxproj">
+      <Project>{87FA097A-99F4-377F-8E73-6B7A06AA4ABF}</Project>
+      <Name>UGraphviz_test_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\test\01_attr\UGraphviz_test_01_attr.vcxproj">
+      <Project>{1433F5FE-52E9-31F2-8541-2FF966050A3A}</Project>
+      <Name>UGraphviz_test_01_attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\test\02_subgraph\UGraphviz_test_02_subgraph.vcxproj">
+      <Project>{680AF4A5-AAB0-3536-8699-DA215FE1A9D4}</Project>
+      <Name>UGraphviz_test_02_subgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\EMPTY\ULuaPP_EMPTY.vcxproj">
+      <Project>{2297609D-E1F7-32E8-9BF5-BF13C44BA235}</Project>
+      <Name>ULuaPP_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\00_basic\ULuaPP_test_00_basic.vcxproj">
+      <Project>{7FE496A4-6A8F-3D32-90D8-07EB61D9075B}</Project>
+      <Name>ULuaPP_test_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\01_overload\ULuaPP_test_01_overload.vcxproj">
+      <Project>{7A147FE1-1FD9-3349-886E-BD76A9E17510}</Project>
+      <Name>ULuaPP_test_01_overload</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\02_enum\ULuaPP_test_02_enum.vcxproj">
+      <Project>{7502A23E-4FD5-3E73-B5E3-FBB92C40E3CD}</Project>
+      <Name>ULuaPP_test_02_enum</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\03_pointer\ULuaPP_test_03_pointer.vcxproj">
+      <Project>{6686D493-3C8C-30A2-AE7F-03F651DB0B34}</Project>
+      <Name>ULuaPP_test_03_pointer</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\04_buffer\ULuaPP_test_04_buffer.vcxproj">
+      <Project>{E5388AFD-3516-3DB8-A93A-C249EDE29AD0}</Project>
+      <Name>ULuaPP_test_04_buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\05_inheritance\ULuaPP_test_05_inheritance.vcxproj">
+      <Project>{4FAD70AE-1803-3B60-AD86-1A07E59C3F78}</Project>
+      <Name>ULuaPP_test_05_inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\06_namespace\ULuaPP_test_06_namespace.vcxproj">
+      <Project>{5D34E3B3-1706-3D66-A04E-B53562F61F25}</Project>
+      <Name>ULuaPP_test_06_namespace</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\07_default\ULuaPP_test_07_default.vcxproj">
+      <Project>{3D8AC131-835D-375F-B47E-2D9906A6B5D3}</Project>
+      <Name>ULuaPP_test_07_default</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\08_special_member\ULuaPP_test_08_special_member.vcxproj">
+      <Project>{6DD6CA53-7A43-3C13-B809-D533BC669846}</Project>
+      <Name>ULuaPP_test_08_special_member</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\09_rvref\ULuaPP_test_09_rvref.vcxproj">
+      <Project>{C0ADBE46-36B9-3FD3-9A06-0E7F296CA4D1}</Project>
+      <Name>ULuaPP_test_09_rvref</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-build\src\test\10_span\ULuaPP_test_10_span.vcxproj">
+      <Project>{A013EE67-B015-334C-85A8-43DA687CF372}</Project>
+      <Name>ULuaPP_test_10_span</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-build\src\CLI\ULua_CLI.vcxproj">
+      <Project>{8D88D4E3-62B0-32F0-A408-C1B4558DA11D}</Project>
+      <Name>ULua_CLI</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-build\src\compiler\ULua_compiler.vcxproj">
+      <Project>{23C353C9-693D-3028-A5F5-C197F82DCF68}</Project>
+      <Name>ULua_compiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-build\src\core\ULua_core.vcxproj">
+      <Project>{EB865895-8C93-38EA-AFAF-467CED0C0EB0}</Project>
+      <Name>ULua_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-build\src\EMPTY\URapidJSON_EMPTY.vcxproj">
+      <Project>{F2EC69BD-C0BF-3793-803E-001C978C5063}</Project>
+      <Name>URapidJSON_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-build\src\test\tutorial\URapidJSON_test_tutorial.vcxproj">
+      <Project>{797CC086-0801-314A-8799-6DF3B1B1852A}</Project>
+      <Name>URapidJSON_test_tutorial</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\AutoRefl\USRefl_AutoRefl.vcxproj">
+      <Project>{3C287046-1BFF-324A-A7D8-A02CC8474F8A}</Project>
+      <Name>USRefl_AutoRefl</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\EMPTY\USRefl_EMPTY.vcxproj">
+      <Project>{B86C12D8-5361-3E5A-A3D4-0BB1E6212AD7}</Project>
+      <Name>USRefl_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\00_basic\USRefl_test_00_basic.vcxproj">
+      <Project>{FFAD89F3-F106-381C-905B-B019E255D676}</Project>
+      <Name>USRefl_test_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\01_template\USRefl_test_01_template.vcxproj">
+      <Project>{21081EE0-FD0F-36BE-AB84-F332819C47FB}</Project>
+      <Name>USRefl_test_01_template</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\02_static\USRefl_test_02_static.vcxproj">
+      <Project>{94046B20-DDF4-3500-BB27-CCC304F2A8A4}</Project>
+      <Name>USRefl_test_02_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\03_func\USRefl_test_03_func.vcxproj">
+      <Project>{F814B4FF-6F63-3993-A281-CAA4541D79A9}</Project>
+      <Name>USRefl_test_03_func</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\04_enum\USRefl_test_04_enum.vcxproj">
+      <Project>{3C9F78D5-C926-3EA3-89A5-3E2577764232}</Project>
+      <Name>USRefl_test_04_enum</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\05_inheritance\USRefl_test_05_inheritance.vcxproj">
+      <Project>{271A3FC7-0061-3E48-A37F-22F72E1C2408}</Project>
+      <Name>USRefl_test_05_inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\06_99\USRefl_test_06_99.vcxproj">
+      <Project>{4C1F69F8-2346-3850-B081-807716BD5B80}</Project>
+      <Name>USRefl_test_06_99</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\07_virtual\USRefl_test_07_virtual.vcxproj">
+      <Project>{9117BB7C-DC70-3038-9DDD-890DCFCE25B0}</Project>
+      <Name>USRefl_test_07_virtual</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\08_mask\USRefl_test_08_mask.vcxproj">
+      <Project>{5993227F-2003-3C56-A8C5-8BDD34528CFC}</Project>
+      <Name>USRefl_test_08_mask</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\test\09_AutoRefl\00_basic\USRefl_test_09_AutoRefl_00_basic.vcxproj">
+      <Project>{BC43F4F2-4BCA-3E27-954B-202CDB67912C}</Project>
+      <Name>USRefl_test_09_AutoRefl_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-build\src\EMPTY\USTL_EMPTY.vcxproj">
+      <Project>{C19334C5-E7D4-3EAB-A4D8-B75D29C4E1A1}</Project>
+      <Name>USTL_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-build\src\test\00_tuple\USTL_test_00_tuple.vcxproj">
+      <Project>{4BD149C3-C6A2-322A-A18B-7B67BF68A6B9}</Project>
+      <Name>USTL_test_00_tuple</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-build\src\test\01_cstring\USTL_test_01_cstring.vcxproj">
+      <Project>{8C8C777F-CE6B-3B8A-807D-FB121443E2C2}</Project>
+      <Name>USTL_test_01_cstring</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-build\src\test\02_memory\USTL_test_02_memory.vcxproj">
+      <Project>{259D03F5-C456-363D-8889-ED98F3CAB56E}</Project>
+      <Name>USTL_test_02_memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-build\src\test\03_compress_pair\USTL_test_03_compress_pair.vcxproj">
+      <Project>{909C38DE-75C2-3466-9219-C349F61EB8B8}</Project>
+      <Name>USTL_test_03_compress_pair</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\EMPTY\UTemplate_EMPTY.vcxproj">
+      <Project>{B46872A0-FB3D-36A7-B4B9-30853FBB8647}</Project>
+      <Name>UTemplate_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\01_Num\UTemplate_test_01_Num.vcxproj">
+      <Project>{85F06E2F-A39F-3F12-92C4-407D095A89F0}</Project>
+      <Name>UTemplate_test_01_Num</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\02_List\01_TypeList\UTemplate_test_02_List_01_TypeList.vcxproj">
+      <Project>{EACC6E41-2520-34E8-8E17-C34DA19C2D9B}</Project>
+      <Name>UTemplate_test_02_List_01_TypeList</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\02_List\02_TemplateList\UTemplate_test_02_List_02_TemplateList.vcxproj">
+      <Project>{1F3F186D-AC9F-3425-B4D7-17DCBDF0BBAC}</Project>
+      <Name>UTemplate_test_02_List_02_TemplateList</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\02_List\03_Sort\UTemplate_test_02_List_03_Sort.vcxproj">
+      <Project>{9BCF8D47-E570-35EA-80AB-D170601551C3}</Project>
+      <Name>UTemplate_test_02_List_03_Sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\03_SI\UTemplate_test_03_SI.vcxproj">
+      <Project>{C30B1DDB-8616-3B16-8C3A-1E11CEC3D770}</Project>
+      <Name>UTemplate_test_03_SI</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\06_TypeID\UTemplate_test_06_TypeID.vcxproj">
+      <Project>{8239AC58-9F21-35BD-8FD6-AD359D83E6A8}</Project>
+      <Name>UTemplate_test_06_TypeID</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\07_Func\00_FuncTraits\UTemplate_test_07_Func_00_FuncTraits.vcxproj">
+      <Project>{6CC20CF7-1C49-3906-A4A5-797665A98DD0}</Project>
+      <Name>UTemplate_test_07_Func_00_FuncTraits</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\07_Func\01_FuncExpand\UTemplate_test_07_Func_01_FuncExpand.vcxproj">
+      <Project>{97380237-B77B-3C4C-BC03-BEC21ECCF2D7}</Project>
+      <Name>UTemplate_test_07_Func_01_FuncExpand</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\08_Basic\00_PConstructor\UTemplate_test_08_Basic_00_PConstructor.vcxproj">
+      <Project>{D737994F-D3A1-30A8-BDB2-31D925ACC2BB}</Project>
+      <Name>UTemplate_test_08_Basic_00_PConstructor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\08_Basic\01_list_init\UTemplate_test_08_Basic_01_list_init.vcxproj">
+      <Project>{186DFC6D-5052-3F4F-8F3A-96CD3A24334E}</Project>
+      <Name>UTemplate_test_08_Basic_01_list_init</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-build\src\test\09_Concept\UTemplate_test_09_Concept.vcxproj">
+      <Project>{5257D88F-DC02-38E7-A5F2-1AE91C42FF77}</Project>
+      <Name>UTemplate_test_09_Concept</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\App\BRDFLUTGenerator\Utopia_App_BRDFLUTGenerator.vcxproj">
+      <Project>{72051AA2-20A3-3356-8F78-A9DA3F9178DB}</Project>
+      <Name>Utopia_App_BRDFLUTGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\App\DX12App\Utopia_App_DX12App.vcxproj">
+      <Project>{29AAB753-CBF1-34A2-84EB-3913BEB5939B}</Project>
+      <Name>Utopia_App_DX12App</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\App\Editor\Utopia_App_Editor.vcxproj">
+      <Project>{D0042F80-A54A-30E9-9028-442498534805}</Project>
+      <Name>Utopia_App_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\App\GUIDGenerator\Utopia_App_GUIDGenerator.vcxproj">
+      <Project>{C4C6BDD6-8EF1-3E48-9AB2-5F7D93FA1135}</Project>
+      <Name>Utopia_App_GUIDGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\App\GameStarter\Utopia_App_GameStarter.vcxproj">
+      <Project>{52D5C35A-7641-3166-9D70-4AB3DA40174E}</Project>
+      <Name>Utopia_App_GameStarter</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Asset\Utopia_Asset.vcxproj">
+      <Project>{72DAA045-F63F-3610-8621-1C0CD354410D}</Project>
+      <Name>Utopia_Asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Core\Utopia_Core.vcxproj">
+      <Project>{79C0CB9D-474F-312A-9D59-25627DD9401D}</Project>
+      <Name>Utopia_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Render\Utopia_Render.vcxproj">
+      <Project>{31E5DA70-A93A-3655-93FE-62DD311C6E9B}</Project>
+      <Name>Utopia_Render</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\ScriptSystem\Utopia_ScriptSystem.vcxproj">
+      <Project>{5B4BC530-97BB-3D6E-8BF4-F3F0EC904D22}</Project>
+      <Name>Utopia_ScriptSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\crossguid\Utopia__deps_crossguid.vcxproj">
+      <Project>{A6EB70D8-FBE5-31B0-BE54-C70EF00758C8}</Project>
+      <Name>Utopia__deps_crossguid</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\imgui\Utopia__deps_imgui.vcxproj">
+      <Project>{EA5FF551-492A-3E1F-8A30-6BBAD04DDA8A}</Project>
+      <Name>Utopia__deps_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\Utopia__deps_spdlog.vcxproj">
+      <Project>{9E79F5AB-C1B8-38CE-8957-A7D179E57843}</Project>
+      <Name>Utopia__deps_spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\tinyobjloader\Utopia__deps_tinyobjloader.vcxproj">
+      <Project>{80E7B21D-88C1-35AA-9CA2-0A8E07993DA2}</Project>
+      <Name>Utopia__deps_tinyobjloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\02_world\Utopia_test_App_02_world.vcxproj">
+      <Project>{D67EB739-29DA-3206-928F-72FE6EE0B4BC}</Project>
+      <Name>Utopia_test_App_02_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\03_dynamic_mesh\Utopia_test_App_03_dynamic_mesh.vcxproj">
+      <Project>{C498D63F-F176-35F4-87EA-A7B63BEC1D2C}</Project>
+      <Name>Utopia_test_App_03_dynamic_mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\04_imgui\Utopia_test_App_04_imgui.vcxproj">
+      <Project>{4EE8C5BF-EF90-3F0F-8D01-66AC672632AE}</Project>
+      <Name>Utopia_test_App_04_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\05_DX12App\Utopia_test_App_05_DX12App.vcxproj">
+      <Project>{ED381712-3292-3526-8751-A78D6A32F650}</Project>
+      <Name>Utopia_test_App_05_DX12App</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\06_EmptyApp\Utopia_test_App_06_EmptyApp.vcxproj">
+      <Project>{3F0045B2-A7EE-3E83-8034-A17A2B25C9BD}</Project>
+      <Name>Utopia_test_App_06_EmptyApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\Editor\Utopia_test_App_Editor.vcxproj">
+      <Project>{50F87DBB-96E1-34CD-8CC5-59CAD48A4971}</Project>
+      <Name>Utopia_test_App_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\App\common\Utopia_test_App_common.vcxproj">
+      <Project>{BE1707AC-EE84-336F-BB1A-8E123D31A146}</Project>
+      <Name>Utopia_test_App_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\00_basic\Utopia_test_Asset_00_basic.vcxproj">
+      <Project>{868D8608-64AD-3BC1-96CF-1935010BB7C0}</Project>
+      <Name>Utopia_test_Asset_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\01_shader\Utopia_test_Asset_01_shader.vcxproj">
+      <Project>{1B781A5A-C028-30B8-8CED-885633498398}</Project>
+      <Name>Utopia_test_Asset_01_shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\02_texture2d\Utopia_test_Asset_02_texture2d.vcxproj">
+      <Project>{6D40D46F-DC1D-3468-98C1-96140DB80694}</Project>
+      <Name>Utopia_test_Asset_02_texture2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\04_directory\Utopia_test_Asset_04_directory.vcxproj">
+      <Project>{13A22C9C-7F8F-3181-83EE-12FE83088803}</Project>
+      <Name>Utopia_test_Asset_04_directory</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\05_serialize\00_world\Utopia_test_Asset_05_serialize_00_world.vcxproj">
+      <Project>{68D06C88-2529-3076-9BBA-1006788A65E1}</Project>
+      <Name>Utopia_test_Asset_05_serialize_00_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Asset\05_serialize\01_usertype\Utopia_test_Asset_05_serialize_01_usertype.vcxproj">
+      <Project>{A48F157F-F2F5-34D4-A395-EF3A70E060D7}</Project>
+      <Name>Utopia_test_Asset_05_serialize_01_usertype</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Core\00_hierarchy\Utopia_test_Core_00_hierarchy.vcxproj">
+      <Project>{0643E680-F7A2-33A4-8BAC-0554A3527B81}</Project>
+      <Name>Utopia_test_Core_00_hierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Render\00_mesh\Utopia_test_Render_00_mesh.vcxproj">
+      <Project>{759669DD-D33C-3E97-AE36-E044BF8163DC}</Project>
+      <Name>Utopia_test_Render_00_mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\Render\01_shader_refl\Utopia_test_Render_01_shader_refl.vcxproj">
+      <Project>{952C4B29-EF99-380F-80FB-420CBE2296AE}</Project>
+      <Name>Utopia_test_Render_01_shader_refl</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\ScriptSystem\00_basic\Utopia_test_ScriptSystem_00_basic.vcxproj">
+      <Project>{66C7D3AB-23D7-345F-9921-3B4B63B38A70}</Project>
+      <Name>Utopia_test_ScriptSystem_00_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\_deps\crossguid\Utopia_test__deps_crossguid.vcxproj">
+      <Project>{67F68BD4-EB9D-3B20-82F7-D589B0670EDE}</Project>
+      <Name>Utopia_test__deps_crossguid</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\test\_deps\spdlog\Utopia_test__deps_spdlog.vcxproj">
+      <Project>{A384E394-A4E8-37A5-811F-622B69AFC8ED}</Project>
+      <Name>Utopia_test__deps_spdlog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

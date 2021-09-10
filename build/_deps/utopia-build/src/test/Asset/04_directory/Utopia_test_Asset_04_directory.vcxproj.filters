@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\Asset\04_directory\main.cpp">
+      <Filter>04_directory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\Asset\04_directory\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="04_directory">
+      <UniqueIdentifier>{36B3A87E-24F7-37D6-8522-3DF208A25220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

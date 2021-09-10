@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\03_compress_pair\main.cpp">
+      <Filter>03_compress_pair</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\03_compress_pair\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="03_compress_pair">
+      <UniqueIdentifier>{894131BC-3E73-344A-9B83-7A3CA49ED768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

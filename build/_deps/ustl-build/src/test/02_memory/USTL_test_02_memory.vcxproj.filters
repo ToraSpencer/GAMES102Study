@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\02_memory\main.cpp">
+      <Filter>02_memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\02_memory\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_memory">
+      <UniqueIdentifier>{46E253E4-1BC6-3496-9D91-B6617E59D8DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

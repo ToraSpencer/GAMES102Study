@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\GUIDGenerator\main.cpp">
+      <Filter>GUIDGenerator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\GUIDGenerator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GUIDGenerator">
+      <UniqueIdentifier>{068475C9-75E6-3E0E-B361-1FB86827E3CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

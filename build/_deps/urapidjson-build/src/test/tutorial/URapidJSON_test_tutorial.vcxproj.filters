@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\src\test\tutorial\main.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-src\src\test\tutorial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tutorial">
+      <UniqueIdentifier>{E2405C39-B1C9-3759-BA9D-10DBC5FB791A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

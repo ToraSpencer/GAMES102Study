@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\02_static\main.cpp">
+      <Filter>02_static</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\02_static\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_static">
+      <UniqueIdentifier>{0D9EC4B2-EE30-3EA9-A3E6-C01A7E1C2B97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

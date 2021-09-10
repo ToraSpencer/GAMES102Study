@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\common\loadlib_rel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\include\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\include\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\include\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\include\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\include\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-src\src\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C0E88B14-89C6-3E9A-AB91-9A969B1A35B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C78007B-FD87-301A-A5DD-A7F36EAC6626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

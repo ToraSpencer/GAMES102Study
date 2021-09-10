@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw6\Systems\DenoiseSystem.cpp">
+      <Filter>hw6\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw6\main.cpp">
+      <Filter>hw6</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw6\Components\details\DenoiseData_AutoRefl.inl">
+      <Filter>hw6\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw6\Components\DenoiseData.h">
+      <Filter>hw6\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw6\HEMeshX.h">
+      <Filter>hw6</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw6\Systems\DenoiseSystem.h">
+      <Filter>hw6\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\d22ca9b8afa0e949f7fbe72a48294d5c\DenoiseData_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\src\hw6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F20F1F4-E635-3FDA-B3BA-735B32F413CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw6">
+      <UniqueIdentifier>{A270A823-414D-35E1-9F74-371759E9F0DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw6\Components">
+      <UniqueIdentifier>{E301D021-A25D-3F96-8D77-FA7D0DD3360D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw6\Components\details">
+      <UniqueIdentifier>{398BD8D5-9717-3260-B2A1-5A8EFB4EB270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw6\Systems">
+      <UniqueIdentifier>{261C7A2B-3F5B-3409-911C-79B676FF1BA9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

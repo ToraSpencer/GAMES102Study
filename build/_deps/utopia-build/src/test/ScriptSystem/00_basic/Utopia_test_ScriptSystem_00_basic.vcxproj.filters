@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\ScriptSystem\00_basic\main.cpp">
+      <Filter>00_basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\ScriptSystem\00_basic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\assets\scripts\test_00.lua">
+      <Filter>assets\scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_basic">
+      <UniqueIdentifier>{9766D94A-9B88-306D-85C2-15BE80A790E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{291CDB44-7A1B-3A47-AE9C-E6613C3AEA34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\scripts">
+      <UniqueIdentifier>{AEDCE2AD-AB1D-35FB-B611-F096F0BCC892}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

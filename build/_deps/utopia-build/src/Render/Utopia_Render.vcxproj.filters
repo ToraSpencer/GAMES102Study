@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\MeshLayoutMngr.cpp">
+      <Filter>Render\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\PipelineBase.cpp">
+      <Filter>Render\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\RsrcMngrDX12.cpp">
+      <Filter>Render\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\ShaderCBMngrDX12.cpp">
+      <Filter>Render\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\StdPipeline.cpp">
+      <Filter>Render\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\Mesh.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\RenderQueue.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\ShaderMngr.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\Systems\CameraSystem.cpp">
+      <Filter>Render\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\TextureCube.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Camera.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Components.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Light.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\MeshFilter.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\MeshRenderer.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Skybox.h">
+      <Filter>include\Utopia\Render\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl">
+      <Filter>include\Utopia\Render\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Light_AutoRefl.inl">
+      <Filter>include\Utopia\Render\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl">
+      <Filter>include\Utopia\Render\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl">
+      <Filter>include\Utopia\Render\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl">
+      <Filter>include\Utopia\Render\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\MeshLayoutMngr.h">
+      <Filter>include\Utopia\Render\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\PipelineBase.h">
+      <Filter>include\Utopia\Render\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\RsrcMngrDX12.h">
+      <Filter>include\Utopia\Render\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\ShaderCBMngrDX12.h">
+      <Filter>include\Utopia\Render\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\StdPipeline.h">
+      <Filter>include\Utopia\Render\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\details\MeshLayoutMngr.inl">
+      <Filter>include\Utopia\Render\DX12\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\HLSLFile.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Material.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Mesh.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\MeshTopology.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RenderQueue.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RenderState.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RootParameter.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Shader.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderMngr.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderPass.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderProperty.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\SubMeshDescriptor.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Systems\CameraSystem.h">
+      <Filter>include\Utopia\Render\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Systems\Systems.h">
+      <Filter>include\Utopia\Render\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Texture.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Texture2D.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\TextureCube.h">
+      <Filter>include\Utopia\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\Material_AutoRefl.inl">
+      <Filter>include\Utopia\Render\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\RenderState_AutoRefl.inl">
+      <Filter>include\Utopia\Render\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\RootParameter_AutoRefl.inl">
+      <Filter>include\Utopia\Render\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\ShaderPass_AutoRefl.inl">
+      <Filter>include\Utopia\Render\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\Shader_AutoRefl.inl">
+      <Filter>include\Utopia\Render\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\_deps\LTCTex.h">
+      <Filter>Render\_deps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\Camera_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\MeshFilter_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\MeshRenderer_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\Skybox_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F20F1F4-E635-3FDA-B3BA-735B32F413CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{409A342E-0E3C-3038-A5FD-6BC71D381C1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\DX12">
+      <UniqueIdentifier>{07A28367-E30A-3DC3-8363-2B6CDDD8612E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Systems">
+      <UniqueIdentifier>{B523E238-DF14-3F0C-84AB-8B10D2A7DCCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\_deps">
+      <UniqueIdentifier>{86E5AC37-AAE1-35E9-8D37-2FA4F9367752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render">
+      <UniqueIdentifier>{337CD4C3-010B-335B-925C-68B16C65A6E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\Components">
+      <UniqueIdentifier>{DB8B3C10-D629-3360-B119-F79397C62E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\Components\details">
+      <UniqueIdentifier>{6678D7E7-5AF5-38A6-83BA-58EE9A969D18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\DX12">
+      <UniqueIdentifier>{1C318E58-A9C8-3A6F-B01A-7E080419E8FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\DX12\details">
+      <UniqueIdentifier>{01A74AEE-A604-3557-A1FF-10A40227A05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\Systems">
+      <UniqueIdentifier>{DA846DEA-72FD-386E-B072-4BDEEA659D5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Render\details">
+      <UniqueIdentifier>{F450A178-EADB-3BBC-ADDD-9C97F6890F0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

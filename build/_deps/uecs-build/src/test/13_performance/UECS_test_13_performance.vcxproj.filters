@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\13_performance\main.cpp">
+      <Filter>13_performance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\13_performance\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="13_performance">
+      <UniqueIdentifier>{6F34CC1F-C38D-34F7-8CFF-1FECC9744E08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

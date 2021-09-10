@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Archetype.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\ArchetypeFilter.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Chunk.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\ChunkView.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CmptLocator.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CmptsView.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\EntityMngr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\Schedule.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SingletonLocator.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SingletonsView.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SysFuncGraph.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemFunc.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemMngr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SystemTraits.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\World.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\ArchetypeFilter.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\ChunkView.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptLocator.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptPtr.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptTag.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptType.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\CmptsView.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\Entity.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\EntityMngr.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\EntityQuery.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\IListener.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\RTDCmptTraits.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\RandomAccessor.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\Schedule.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SingletonLocator.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SingletonsView.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SystemMngr.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\SystemTraits.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\World.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\config.h">
+      <Filter>include\UECS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Archetype.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Archetype.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ArchetypeCmptTraits.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ArchetypeCmptTraits.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Chunk.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\ChunkView.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTag.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptType.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTypeSet.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptTypeSet.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\CmptsLocator.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\EntityMngr.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\EntityQuery.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Job.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\RTDCmptTraits.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Schedule.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SingletonLocator.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemFunc.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemFunc.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemMngr.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\SystemTraits.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Util.h">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\Util.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include\UECS\detail\World.inl">
+      <Filter>include\UECS\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\SysFuncGraph.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{E00659F3-6938-3767-8B91-E7F8ABFD0D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UECS">
+      <UniqueIdentifier>{7CB8E0D9-D1F3-33F7-8AC8-6207A74138CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UECS\detail">
+      <UniqueIdentifier>{AD3060D3-90BD-3B69-8BF9-8F3F20D5AACB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

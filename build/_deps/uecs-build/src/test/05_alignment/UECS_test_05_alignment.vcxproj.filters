@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\05_alignment\main.cpp">
+      <Filter>05_alignment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\05_alignment\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="05_alignment">
+      <UniqueIdentifier>{EF0061F9-A7CC-3A34-8F44-E70643935D6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

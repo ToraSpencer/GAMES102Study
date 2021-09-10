@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\test\01_attr\main.cpp">
+      <Filter>01_attr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\test\01_attr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_attr">
+      <UniqueIdentifier>{668185B3-9F74-312D-ADAB-4ED6FD255C1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

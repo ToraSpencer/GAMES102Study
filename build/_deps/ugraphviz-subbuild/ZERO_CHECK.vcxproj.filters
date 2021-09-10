@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-subbuild\CMakeFiles\830cee7f6c9d089b1ee12507cc9909aa\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B777FD70-7CD0-3AC4-8140-36D50D6BFB53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

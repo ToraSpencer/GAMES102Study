@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\Basic.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\Concept.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\Func.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\Num.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\SI.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\TemplateList.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\TypeID.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include\UTemplate\Typelist.h">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UTemplate">
+      <UniqueIdentifier>{225ECC59-1DEA-3C81-8116-23332509C057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

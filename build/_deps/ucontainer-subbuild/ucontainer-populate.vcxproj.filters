@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\397bf7207950517445a9cb5109bacd7b\ucontainer-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\d18a743c930bfe3a420b7c11aa3aaab6\ucontainer-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\2f66f2f51dc8c13681d71b828e7cf02b\ucontainer-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-subbuild\CMakeFiles\ucontainer-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{56E08AD5-5F33-316D-8BCA-D59755326D47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

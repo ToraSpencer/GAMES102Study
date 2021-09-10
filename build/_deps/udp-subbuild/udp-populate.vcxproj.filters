@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\00bfeb5cc93ec39bcf5c9fd6ff7a3179\udp-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\6a3750aac862a5bd1f0d339c8dcc296f\udp-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\e2e7d5386c21518fed5bb37948582b01\udp-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-subbuild\CMakeFiles\udp-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C1F8B9A9-E439-3FE0-94B2-DC82CE96CD15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

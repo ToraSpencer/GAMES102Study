@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\test\02_subgraph\main.cpp">
+      <Filter>02_subgraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\src\test\02_subgraph\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_subgraph">
+      <UniqueIdentifier>{553DE885-AAFC-3DF0-BF59-E9FEB501CD9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

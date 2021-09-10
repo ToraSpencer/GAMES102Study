@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\04_enum\main.cpp">
+      <Filter>04_enum</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\04_enum\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="04_enum">
+      <UniqueIdentifier>{EA365BBE-A584-3C25-9695-4C094E8853E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

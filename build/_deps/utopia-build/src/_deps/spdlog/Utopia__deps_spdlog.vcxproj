@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E79F5AB-C1B8-38CE-8957-A7D179E57843}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Utopia__deps_spdlog</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utopia__deps_spdlog.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utopia__deps_spdlogd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utopia__deps_spdlog.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utopia__deps_spdlog</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utopia__deps_spdlog.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utopia__deps_spdlog</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utopia__deps_spdlog.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utopia__deps_spdlog</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/_deps/spdlog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\pch.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/_deps/spdlog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\pch.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/_deps/spdlog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\pch.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/_deps/spdlog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\pch.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async_logger-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\async_logger.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\argv.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\env.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\helpers-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\cfg\helpers.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\common-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\common.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\backtracer-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\backtracer.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\circular_q.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\console_globals.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\file_helper-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\file_helper.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\fmt_helper.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg_buffer-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\log_msg_buffer.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\mpmc_blocking_q.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\null_mutex.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\os-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\os.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\periodic_worker-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\periodic_worker.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\registry-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\registry.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\synchronous_factory.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\tcp_client-windows.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\tcp_client.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\thread_pool-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\thread_pool.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\details\windows_include.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bin_to_hex.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\chrono.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\color.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\compile.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\core.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\format-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\format.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\locale.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\os.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\ostream.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\posix.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\printf.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\bundled\ranges.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\chrono.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\fmt.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fmt\ostr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\formatter.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\fwd.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\logger-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\logger.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\pattern_formatter-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\pattern_formatter.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\android_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ansicolor_sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ansicolor_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\base_sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\base_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\basic_file_sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\basic_file_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\daily_file_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\dist_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\dup_filter_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\msvc_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\null_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ostream_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\ringbuffer_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\rotating_file_sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\rotating_file_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_color_sinks-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_color_sinks.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_sinks-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\stdout_sinks.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\syslog_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\systemd_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\tcp_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\win_eventlog_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\wincolor_sink-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\sinks\wincolor_sink.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\spdlog-inl.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\spdlog.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\stopwatch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\tweakme.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\spdlog\version.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\async.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\cfg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\color_sinks.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\file_sinks.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\fmt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\spdlog.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\spdlog\stdout_sinks.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/_deps/spdlog/CMakeFiles/Utopia__deps_spdlog.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\CMakeFiles\Utopia__deps_spdlog.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\ZERO_CHECK.vcxproj">
+      <Project>{7E1BA33C-35A9-300A-AF26-855A67D039EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

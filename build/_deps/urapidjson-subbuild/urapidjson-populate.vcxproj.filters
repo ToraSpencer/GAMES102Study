@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\bfa3bc6407c6a13dc09162f0fa8753c2\urapidjson-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\82359150938c12e341759b3f53331316\urapidjson-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\d6c2040ce2c85baad6a680b2242baccf\urapidjson-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\urapidjson-subbuild\CMakeFiles\urapidjson-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB88838E-72FA-341B-8575-2AE2B753148E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\DX12App\DX12App.cpp">
+      <Filter>DX12App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\App\DX12App\DX12App.h">
+      <Filter>include\Utopia\App\DX12App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\App\DX12App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DX12App">
+      <UniqueIdentifier>{6FB96961-57F3-3286-AF90-63A128C75AC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App">
+      <UniqueIdentifier>{6A1B8695-DD32-3AED-AE35-1A7C29172F1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\App\DX12App">
+      <UniqueIdentifier>{9BC64296-261F-3778-8B08-EBECA68E2058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

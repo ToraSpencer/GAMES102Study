@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\04_buffer\main.cpp">
+      <Filter>04_buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uluapp-src\src\test\04_buffer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="04_buffer">
+      <UniqueIdentifier>{C9412B9B-CD38-3315-ACF3-FFF0877DCE7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

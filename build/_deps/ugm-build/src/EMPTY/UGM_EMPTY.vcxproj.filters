@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IAdd.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IAffine.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IAffineRealSubspace.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IAffineSubspace.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArray.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArray1D.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArray1D_Util.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayAdd.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayCast.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayHadamardProduct.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayInOut.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayLinear.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayScalarMul.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IArrayUtil.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\ICross.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IEuclideanA.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IArray\IEuclideanV.h">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IInOut.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IInnerProduct.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\ILine.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\ILinear.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\IMatrix.h">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\IMatrixInOut.h">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\IMatrixMul.h">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\details\IMatrix.inl">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\details\IMatrixMul.inl">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMatrix\details\svd3.h">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMetric.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IMul.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\INorm.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IOLine.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IOPlane.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IPlane.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IRing.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\IScalarMul.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\Interfaces\ImplTraits.h">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\UGM.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\basic.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\bbox.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\config.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\basic.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\bbox.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\euler.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\forward_decl.h">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\hvec.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\line.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\material.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\normal.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\plane.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\point.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\quat.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\ray.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\sample.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\svec.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\traits.h">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\transform.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\triangle.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\details\val.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\euler.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\hvec.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\line.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\mat.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\material.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\normal.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\plane.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\point.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\quat.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\ray.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\rgb.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\rgba.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\sample.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\scale.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\svec.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\transform.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\triangle.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\val.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include\UGM\vec.h">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{CE51212D-E373-3785-832F-DB98CFF5E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM">
+      <UniqueIdentifier>{E06886E6-2FE7-311A-820D-285DADC779FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces">
+      <UniqueIdentifier>{D8FFFBF2-6594-3A9D-8B5C-33726F2F1268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IArray">
+      <UniqueIdentifier>{5BE98AB8-6174-3C25-A582-B8BCCA48B6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IMatrix">
+      <UniqueIdentifier>{76DC1C10-B5C4-3190-8DD8-FBE146FC70EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IMatrix\details">
+      <UniqueIdentifier>{92C2F4EC-1AF0-3719-91C7-24E9EA592077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\details">
+      <UniqueIdentifier>{B6D74840-0D03-3962-AE5B-75C1CAD579D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

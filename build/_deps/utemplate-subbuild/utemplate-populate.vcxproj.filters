@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\bbb15c00183ca8e9832d6b7ea623ebd5\utemplate-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\907969a5d19b86ea98a9cda14321eca3\utemplate-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\634ddba72260d3bacdf924fa00dfda47\utemplate-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-subbuild\CMakeFiles\utemplate-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3EA3DF11-9386-307F-BBB9-2341F39BFF8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31E5DA70-A93A-3655-93FE-62DD311C6E9B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Utopia_Render</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utopia_Render.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utopia_Renderd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utopia_Render.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utopia_Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utopia_Render.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utopia_Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utopia_Render.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utopia_Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;UBPA_USREFL_NOT_USE_NAMEOF;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udp-src\include;G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\Camera_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\..\..\bin\AutoRefld.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Camera.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\..\..\bin\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Camera.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\..\..\bin\MinSizeRel\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Camera.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\bin\MinSizeRel\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\..\..\bin\RelWithDebInfo\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Camera.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Camera_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\bin\RelWithDebInfo\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\MeshFilter_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\..\..\bin\AutoRefld.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshFilter.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\..\..\bin\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshFilter.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\..\..\bin\MinSizeRel\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshFilter.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\bin\MinSizeRel\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\..\..\bin\RelWithDebInfo\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshFilter.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshFilter_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\bin\RelWithDebInfo\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\MeshRenderer_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\..\..\bin\AutoRefld.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshRenderer.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\..\..\bin\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshRenderer.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\..\..\bin\MinSizeRel\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshRenderer.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\bin\MinSizeRel\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\..\..\bin\RelWithDebInfo\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/MeshRenderer.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/MeshRenderer_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\bin\RelWithDebInfo\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\203c44250382cd2367aba29253bcf97e\Skybox_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\..\..\bin\AutoRefld.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Skybox.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\..\..\bin\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Skybox.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\..\..\bin\MinSizeRel\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Skybox.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\bin\MinSizeRel\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\..\..\bin\RelWithDebInfo\AutoRefl.exe G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/Skybox.h G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/include/Utopia/Render/Components/details/Skybox_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\bin\RelWithDebInfo\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/Render/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/Render/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Render\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/Render/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/Render/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Render\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/Render/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/Render/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Render\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/utopia-src/src/Render/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/utopia-build/src/Render/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Render\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Camera.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Components.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Light.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\MeshFilter.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\MeshRenderer.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\Skybox.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Camera_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Light_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshFilter_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\MeshRenderer_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Components\details\Skybox_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\MeshLayoutMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\PipelineBase.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\RsrcMngrDX12.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\ShaderCBMngrDX12.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\StdPipeline.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\DX12\details\MeshLayoutMngr.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\HLSLFile.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Material.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Mesh.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\MeshTopology.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RenderQueue.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RenderState.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\RootParameter.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Shader.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderPass.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\ShaderProperty.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\SubMeshDescriptor.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Systems\CameraSystem.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Systems\Systems.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Texture.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\Texture2D.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\TextureCube.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\Material_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\RenderState_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\RootParameter_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\ShaderPass_AutoRefl.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Render\details\Shader_AutoRefl.inl" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\MeshLayoutMngr.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\PipelineBase.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\RsrcMngrDX12.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\ShaderCBMngrDX12.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\DX12\StdPipeline.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\Mesh.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\RenderQueue.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\ShaderMngr.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\Systems\CameraSystem.cpp" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\TextureCube.cpp" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Render\_deps\LTCTex.h" />
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\ZERO_CHECK.vcxproj">
+      <Project>{7E1BA33C-35A9-300A-AF26-855A67D039EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\core\UContainer_core.vcxproj">
+      <Project>{1E5701F1-8D4D-3730-8CEB-1D60400803AC}</Project>
+      <Name>UContainer_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\UDX12_core.vcxproj">
+      <Project>{D9C3953F-B38F-3BD7-9D2D-A127ED5898E3}</Project>
+      <Name>UDX12_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-build\src\core\UECS_core.vcxproj">
+      <Project>{163FA6AC-9184-3C9B-BABE-3587111EE4B9}</Project>
+      <Name>UECS_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-build\src\core\UFG_core.vcxproj">
+      <Project>{6F95A30C-A8C4-33E3-9A4B-455E151FF6DC}</Project>
+      <Name>UFG_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\core\UGraphviz_core.vcxproj">
+      <Project>{43D33E96-A1B6-3D67-BD2C-F913A7334087}</Project>
+      <Name>UGraphviz_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-build\src\AutoRefl\USRefl_AutoRefl.vcxproj">
+      <Project>{3C287046-1BFF-324A-A7D8-A02CC8474F8A}</Project>
+      <Name>USRefl_AutoRefl</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\Core\Utopia_Core.vcxproj">
+      <Project>{79C0CB9D-474F-312A-9D59-25627DD9401D}</Project>
+      <Name>Utopia_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\imgui\Utopia__deps_imgui.vcxproj">
+      <Project>{EA5FF551-492A-3E1F-8A30-6BBAD04DDA8A}</Project>
+      <Name>Utopia__deps_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-build\src\_deps\spdlog\Utopia__deps_spdlog.vcxproj">
+      <Project>{9E79F5AB-C1B8-38CE-8957-A7D179E57843}</Project>
+      <Name>Utopia__deps_spdlog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

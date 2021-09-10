@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\11_runtime_cmpt\main.cpp">
+      <Filter>11_runtime_cmpt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\11_runtime_cmpt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="11_runtime_cmpt">
+      <UniqueIdentifier>{99950D03-A00E-35F3-80C6-1F451B047DAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

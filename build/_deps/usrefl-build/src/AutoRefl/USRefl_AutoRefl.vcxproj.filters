@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\Meta.cpp">
+      <Filter>AutoRefl</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\MetaGenerator.cpp">
+      <Filter>AutoRefl</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\TypeInfoGenerator.cpp">
+      <Filter>AutoRefl</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\main.cpp">
+      <Filter>AutoRefl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\Meta.h">
+      <Filter>AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\MetaGenerator.h">
+      <Filter>AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\TypeInfoGenerator.h">
+      <Filter>AutoRefl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\AutoRefl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AutoRefl">
+      <UniqueIdentifier>{E714467E-314F-31C7-BE81-B51CA9B6352D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

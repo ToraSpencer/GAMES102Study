@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\02_VarSizeAllocMngr\main.cpp">
+      <Filter>02_VarSizeAllocMngr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\src\test\02_VarSizeAllocMngr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_VarSizeAllocMngr">
+      <UniqueIdentifier>{8B0E6BCE-E1A8-3A57-A9E0-B7E7C8B5809A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

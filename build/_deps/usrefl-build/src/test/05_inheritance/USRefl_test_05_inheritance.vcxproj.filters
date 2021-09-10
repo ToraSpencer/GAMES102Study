@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\05_inheritance\main.cpp">
+      <Filter>05_inheritance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\usrefl-src\src\test\05_inheritance\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="05_inheritance">
+      <UniqueIdentifier>{F41C32DC-8801-3FC0-883E-2AACDB49DCDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

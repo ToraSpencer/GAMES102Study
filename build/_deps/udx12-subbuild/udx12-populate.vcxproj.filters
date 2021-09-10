@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\4066e4a080940f2f863e949834b53556\udx12-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\5994517f6cdf189b2a167e8f7205c034\udx12-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\b7959f62dbb9d546b99060cbf1185c19\udx12-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-subbuild\CMakeFiles\udx12-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{07722446-28A6-38C7-A21F-88464CADC212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

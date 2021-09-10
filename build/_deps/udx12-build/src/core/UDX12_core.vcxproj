@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9C3953F-B38F-3BD7-9D2D-A127ED5898E3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UDX12_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UDX12_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UDX12_cored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UDX12_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UDX12_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UDX12_core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UDX12_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UDX12_core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UDX12_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12;G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-src\include;G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\include;G:\gitRepositories\GAMES102Study\build\_deps\nameof-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include;G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\CompileShaders.cmd">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating HLSL shaders...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+call CompileShaders.cmd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\AlphaTestEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\BasicEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Common.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DebugEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DualTextureEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\EnvironmentMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\GenerateMips.hlsl;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Lighting.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\NormalMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBRCommon.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBREffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PixelPacking_Velocity.hlsli;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PostProcess.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\RootSig.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SkinnedEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SpriteEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Structures.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\ToneMap.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Utilities.fxh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating HLSL shaders...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+call CompileShaders.cmd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\AlphaTestEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\BasicEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Common.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DebugEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DualTextureEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\EnvironmentMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\GenerateMips.hlsl;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Lighting.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\NormalMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBRCommon.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBREffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PixelPacking_Velocity.hlsli;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PostProcess.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\RootSig.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SkinnedEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SpriteEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Structures.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\ToneMap.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Utilities.fxh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating HLSL shaders...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+call CompileShaders.cmd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\AlphaTestEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\BasicEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Common.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DebugEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DualTextureEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\EnvironmentMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\GenerateMips.hlsl;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Lighting.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\NormalMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBRCommon.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBREffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PixelPacking_Velocity.hlsli;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PostProcess.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\RootSig.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SkinnedEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SpriteEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Structures.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\ToneMap.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Utilities.fxh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating HLSL shaders...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+call CompileShaders.cmd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\AlphaTestEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\BasicEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Common.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DebugEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\DualTextureEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\EnvironmentMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\GenerateMips.hlsl;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Lighting.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\NormalMapEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBRCommon.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PBREffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PixelPacking_Velocity.hlsli;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\PostProcess.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\RootSig.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SkinnedEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\SpriteEffect.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Structures.fxh;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\ToneMap.fx;G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Utilities.fxh;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/udx12-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/udx12-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/udx12-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/gitRepositories/GAMES102Study/build/_deps/udx12-src/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/gitRepositories/GAMES102Study -BG:/gitRepositories/GAMES102Study/build --check-stamp-file G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/UDX12_core.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Blob.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\CmdQueue.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\D3DInclude.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Desc.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\CPUDescriptorHeap.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapAllocMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapAllocation.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DescriptorHeapWrapper.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\DynamicSuballocMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\GPUDescriptorHeap.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeap\IDescriptorAllocator.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\DescriptorHeapMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Device.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\Executor.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\FrameGraph.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\Rsrc.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameGraph\RsrcMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameResource.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\FrameResourceMngr.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\GCmdList.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\MeshGPUBuffer.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\ResourceDeleteBatch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\UDX12.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\UploadBuffer.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\Util.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Audio.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\BufferHelpers.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\CommonStates.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DDSTextureLoader.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DescriptorHeap.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DirectXHelpers.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\DirectXTK12.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\EffectPipelineStateDescription.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Effects.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GamePad.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GeometricPrimitive.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\GraphicsMemory.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Keyboard.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Model.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\Mouse.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\PostProcess.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\PrimitiveBatch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\RenderTargetState.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\ResourceUploadBatch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\ScreenGrab.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SimpleMath.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SimpleMath.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SpriteBatch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\SpriteFont.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\VertexTypes.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\WICTextureLoader.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\DirectXTK12\XboxDDSTextureLoader.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\_deps\d3dx12.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\FrameRsrcMngr.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\GCmdList.inl" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\include\UDX12\details\UploadBuffer.inl" />
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc">
+    </None>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Blob.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\CmdQueue.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\D3DInclude.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Desc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\CPUDescriptorHeap.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapAllocMngr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapAllocation.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DescriptorHeapWrapper.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\DynamicSuballocMngr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\GPUDescriptorHeap.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeap\IDescriptorAllocator.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\DescriptorHeapMngr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameGraph\Executor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameGraph\RsrcMngr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameResource.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\FrameResourceMngr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\GCmdList.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\MeshGPUBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\ResourceDeleteBatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\UploadBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\Util.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AlignedNew.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AlphaTestEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\AudioEngine.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BasicEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BasicPostProcess.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Bezier.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BinaryReader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BinaryReader.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\BufferHelpers.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\CommonStates.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DDS.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DDSTextureLoader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DebugEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DemandCreate.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DescriptorHeap.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DirectXHelpers.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DualPostProcess.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DualTextureEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\DynamicSoundEffectInstance.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectCommon.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectCommon.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectFactory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectPipelineStateDescription.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EffectTextureFactory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\EnvironmentMapEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GamePad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GeometricPrimitive.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Geometry.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Geometry.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\GraphicsMemory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Keyboard.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LinearAllocator.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LinearAllocator.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\LoaderHelpers.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Model.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ModelLoadSDKMESH.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ModelLoadVBO.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\Mouse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\NormalMapEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PBREffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PBREffectFactory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PlatformHelpers.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\PrimitiveBatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ResourceUploadBatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SDKMesh.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ScreenGrab.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SharedResourcePool.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SimpleMath.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SkinnedEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundCommon.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundCommon.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundEffect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundEffectInstance.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SoundStreamInstance.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SpriteBatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\SpriteFont.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\ToneMapPostProcess.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\VertexTypes.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WAVFileReader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WAVFileReader.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WICTextureLoader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBank.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBankReader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\WaveBankReader.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\XboxDDSTextureLoader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\d3dx12.h" />
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\pch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/gitRepositories/GAMES102Study/build/_deps/udx12-build/src/core/CMakeFiles/UDX12_core.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\pch.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-src\src\core\_deps\DirectXTK12\vbo.h" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\udx12-build\src\core\CMakeFiles\UDX12_core.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\ZERO_CHECK.vcxproj">
+      <Project>{7E1BA33C-35A9-300A-AF26-855A67D039EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ucontainer-build\src\core\UContainer_core.vcxproj">
+      <Project>{1E5701F1-8D4D-3730-8CEB-1D60400803AC}</Project>
+      <Name>UContainer_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-build\src\core\UFG_core.vcxproj">
+      <Project>{6F95A30C-A8C4-33E3-9A4B-455E151FF6DC}</Project>
+      <Name>UFG_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\gitRepositories\GAMES102Study\build\_deps\ugraphviz-build\src\core\UGraphviz_core.vcxproj">
+      <Project>{43D33E96-A1B6-3D67-BD2C-F913A7334087}</Project>
+      <Name>UGraphviz_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

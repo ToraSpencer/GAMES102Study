@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\88cda706d9f6a47be1fb0e94dfde1c76\ulua-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\50544bbdd6420d9c9de5baa7f44d17f3\ulua-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\5e294ffe9ddbdb5dd486bf0c3c35a4ab\ulua-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\ulua-subbuild\CMakeFiles\ulua-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{507FDEA0-67A1-304C-B20C-79EF6DEC72E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

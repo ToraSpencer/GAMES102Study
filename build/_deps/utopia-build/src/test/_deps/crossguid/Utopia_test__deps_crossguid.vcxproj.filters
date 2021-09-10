@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\_deps\crossguid\Test.cpp">
+      <Filter>crossguid</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\_deps\crossguid\TestMain.cpp">
+      <Filter>crossguid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\_deps\crossguid\Test.hpp">
+      <Filter>crossguid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\test\_deps\crossguid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="crossguid">
+      <UniqueIdentifier>{68E5CEE5-A675-38DB-A270-0BC70CA405AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\src\test\02_vtable\01_heapobj\main.cpp">
+      <Filter>01_heapobj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\udp-src\src\test\02_vtable\01_heapobj\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_heapobj">
+      <UniqueIdentifier>{B0BB3D7B-14EB-3B4D-B5D5-2EB334BD2CE3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

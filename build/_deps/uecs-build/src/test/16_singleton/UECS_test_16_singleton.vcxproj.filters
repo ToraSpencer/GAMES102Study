@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\16_singleton\main.cpp">
+      <Filter>16_singleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\16_singleton\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="16_singleton">
+      <UniqueIdentifier>{BF089E30-8092-385F-B523-66C0F0F7DD2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

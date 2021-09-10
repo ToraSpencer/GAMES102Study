@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\00_tuple\main.cpp">
+      <Filter>00_tuple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ustl-src\src\test\00_tuple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_tuple">
+      <UniqueIdentifier>{C9DE333F-1181-30CB-8B24-00A274D484AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

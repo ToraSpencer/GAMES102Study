@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\src\test\09_Concept\main.cpp">
+      <Filter>09_Concept</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utemplate-src\src\test\09_Concept\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="09_Concept">
+      <UniqueIdentifier>{A6D47825-92C3-346D-BF1C-9DE1E6D0085E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

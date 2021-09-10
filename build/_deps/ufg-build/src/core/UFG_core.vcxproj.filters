@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\src\core\Compiler.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\src\core\FrameGraph.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\Compiler.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\FrameGraph.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\MoveNode.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\PassNode.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\ResourceNode.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\UFG.h">
+      <Filter>include\UFG</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\include\UFG\detail\FrameGraph.inl">
+      <Filter>include\UFG\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ufg-src\src\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{E00659F3-6938-3767-8B91-E7F8ABFD0D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UFG">
+      <UniqueIdentifier>{B98B7C17-EC92-3D20-A053-9565C195F73C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UFG\detail">
+      <UniqueIdentifier>{DC93139E-4E4A-3FA5-8D61-8DD5F7658F6D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

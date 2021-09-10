@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>imgui\misc\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\imgui\imconfig.h">
+      <Filter>include\_deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\imgui\imgui.h">
+      <Filter>include\_deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\imgui\imgui_impl_dx12.h">
+      <Filter>include\_deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\imgui\imgui_impl_win32.h">
+      <Filter>include\_deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\_deps\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>include\_deps\imgui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\_deps\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{575C2370-4FDF-3E69-A279-E774E4A294B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc">
+      <UniqueIdentifier>{93960D5D-34FB-32D0-B081-8C629640AAD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc\cpp">
+      <UniqueIdentifier>{97E5F6AE-411C-3DB3-91AA-23995767F1EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps">
+      <UniqueIdentifier>{91EE7D60-A369-31BB-92DF-734AF120DC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\imgui">
+      <UniqueIdentifier>{F4E497AF-2A33-3F12-A6C1-73C351C79935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\imgui\misc">
+      <UniqueIdentifier>{8F531D55-8E40-3DD1-8C66-47A7ABABA7B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_deps\imgui\misc\cpp">
+      <UniqueIdentifier>{3EE0F22B-C155-3E96-A1A4-4BBE1C292FBF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

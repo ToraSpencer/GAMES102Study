@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\08_job\main.cpp">
+      <Filter>08_job</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\08_job\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="08_job">
+      <UniqueIdentifier>{3BA6F5DC-36EA-33FE-80E6-1C1E074EDB9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

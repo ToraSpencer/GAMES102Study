@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\20_system_lifecycle\main.cpp">
+      <Filter>20_system_lifecycle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\20_system_lifecycle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="20_system_lifecycle">
+      <UniqueIdentifier>{A644AA53-F5BB-3B33-B3EB-F917E8BFAB0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

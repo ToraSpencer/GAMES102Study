@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\1577bf2f443da477aef03b54c98e37a5\uhemesh-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\9113276c4645afdd27f95bfa3aad4d6c\uhemesh-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\f12e933854fa452fbb51648711cd7de5\uhemesh-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\uhemesh-subbuild\CMakeFiles\uhemesh-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D85CD98E-0BA4-3B6C-9B08-83F60C6B02AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\5d6c97c9fa1b3bf40bfc187b22b3bc8b\utopia-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\c87cd8526ea50fd37f6cff205e83a24b\utopia-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\58118c9e5a90b286fc88478ec54186a0\utopia-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-subbuild\CMakeFiles\utopia-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EE90739A-BDBF-35FA-85AE-229A29A0F82E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

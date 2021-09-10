@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw5\Systems\CanvasSystem.cpp">
+      <Filter>hw5\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw5\main.cpp">
+      <Filter>hw5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw5\Components\details\CanvasData_AutoRefl.inl">
+      <Filter>hw5\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw5\Components\CanvasData.h">
+      <Filter>hw5\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw5\Systems\CanvasSystem.h">
+      <Filter>hw5\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\3f725d2e7428fc12d2547d415501f313\CanvasData_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\src\hw5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F20F1F4-E635-3FDA-B3BA-735B32F413CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5">
+      <UniqueIdentifier>{2DD8AE92-397A-3E58-BC12-B67F1F0A4674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Components">
+      <UniqueIdentifier>{0DFC2DAF-E59E-3BBD-B6C4-3C8619B3F97F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Components\details">
+      <UniqueIdentifier>{09C8ABB8-327A-3AD4-8EF4-F581FFCE26D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Systems">
+      <UniqueIdentifier>{11D4CCDE-709A-318D-BAD1-AB79BCAD971B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

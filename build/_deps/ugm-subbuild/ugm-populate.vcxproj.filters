@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\d995c529c3d6f23497e0a482cad2d9fd\ugm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\6d260540bb90f76e64d28f190608fd8c\ugm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\8d70c8df1f2fd740aa7a40dc51e9df07\ugm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-subbuild\CMakeFiles\ugm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EE813135-F120-329B-B793-BC460EA96F47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

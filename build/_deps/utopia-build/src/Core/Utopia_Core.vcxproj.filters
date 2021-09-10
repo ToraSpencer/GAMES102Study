@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\GameTimer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\ImGUIMngr.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Image.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\StringsSink.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\InputSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\LocalToParentSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\RoamerSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\RotationEulerSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\TRSToLocalToParentSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\TRSToLocalToWorldSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\WorldTimeSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\Systems\WorldToLocalSystem.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Children.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Components.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Input.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\LocalToParent.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\LocalToWorld.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Name.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\NonUniformScale.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Parent.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Roamer.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Rotation.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\RotationEuler.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Scale.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\Translation.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\WorldTime.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\WorldToLocal.h">
+      <Filter>include\Utopia\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Children_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Input_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\LocalToParent_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\LocalToWorld_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Name_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\NonUniformScale_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Parent_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Roamer_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\RotationEuler_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Rotation_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Scale_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\Translation_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\WorldTime_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Components\details\WorldToLocal_AutoRefl.inl">
+      <Filter>include\Utopia\Core\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\DefaultAsset.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\GameTimer.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\ImGUIMngr.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Image.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Object.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Scene.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\StringsSink.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\InputSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\LocalToParentSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\RoamerSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\RotationEulerSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\Systems.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\TRSToLocalToParentSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\TRSToLocalToWorldSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\WorldTimeSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Systems\WorldToLocalSystem.h">
+      <Filter>include\Utopia\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\TextAsset.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\Traits.h">
+      <Filter>include\Utopia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\details\Image.inl">
+      <Filter>include\Utopia\Core\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Core\details\Object_AutoRefl.inl">
+      <Filter>include\Utopia\Core\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\_deps\stb_image.h">
+      <Filter>Core\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\_deps\stb_image_write.h">
+      <Filter>Core\_deps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Children_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Input_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\LocalToParent_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\LocalToWorld_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Name_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\NonUniformScale_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Parent_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Roamer_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\RotationEuler_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Rotation_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Scale_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\Translation_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\WorldTime_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\9e725565234eb6eae5eaa98830ce271e\WorldToLocal_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F20F1F4-E635-3FDA-B3BA-735B32F413CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7E034D85-FC6E-3C9D-8A9F-3357B3D1D2B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Systems">
+      <UniqueIdentifier>{43ECC646-7566-3718-AF16-FE369E2BD492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\_deps">
+      <UniqueIdentifier>{DDD722F9-2D39-3F7B-9577-04250F403EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Core">
+      <UniqueIdentifier>{938090C4-D801-3D80-A690-9E445F0FC83D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Core\Components">
+      <UniqueIdentifier>{7ECAC058-1D25-3103-BE98-102E940B14D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Core\Components\details">
+      <UniqueIdentifier>{FE234F2D-FD41-3B92-AB83-63E33D82F98B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Core\Systems">
+      <UniqueIdentifier>{EFEBEA2A-E8C9-3837-B3DF-60FDF58DA925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Core\details">
+      <UniqueIdentifier>{574A6B0E-8F04-389C-AA99-9D892D083E81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

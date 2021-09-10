@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\AssetMngr.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\Serializer.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\UShaderCompiler.cpp">
+      <Filter>Asset\UShaderCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderBaseListener.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderBaseVisitor.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderLexer.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderListener.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderParser.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderVisitor.cpp">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Asset\AssetMngr.h">
+      <Filter>include\Utopia\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Asset\Serializer.h">
+      <Filter>include\Utopia\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Asset\details\AssetMngr.inl">
+      <Filter>include\Utopia\Asset\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\Asset\details\Serializer.inl">
+      <Filter>include\Utopia\Asset\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\UShaderCompiler.h">
+      <Filter>Asset\UShaderCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderBaseListener.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderBaseVisitor.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderLexer.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderListener.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderParser.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\UShaderCompiler\_deps\UShaderVisitor.h">
+      <Filter>Asset\UShaderCompiler\_deps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\Asset\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{93E074AA-1FC5-36AD-9F12-ED38B61A9204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset\UShaderCompiler">
+      <UniqueIdentifier>{0740A47B-9EC8-3A3F-92CD-A163E9EDF7E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset\UShaderCompiler\_deps">
+      <UniqueIdentifier>{EE3EB7C8-6A2E-3A95-9A94-BDF42F8BA50A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Asset">
+      <UniqueIdentifier>{B1CDF9A4-CC1E-33DB-B4A1-954460844C69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\Asset\details">
+      <UniqueIdentifier>{CC430156-EC63-39A1-B54F-4675367AC9E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

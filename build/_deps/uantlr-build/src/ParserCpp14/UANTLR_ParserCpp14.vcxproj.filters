@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14Lexer.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14Parser.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14ParserBaseListener.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14ParserBaseVisitor.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14ParserListener.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CPP14ParserVisitor.cpp">
+      <Filter>ParserCpp14</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14Lexer.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14Parser.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14ParserBaseListener.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14ParserBaseVisitor.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14ParserListener.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\include\UANTLR\ParserCPP14\CPP14ParserVisitor.h">
+      <Filter>include\UANTLR\ParserCPP14</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uantlr-src\src\ParserCpp14\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ParserCpp14">
+      <UniqueIdentifier>{7D87692D-5741-3F87-86A3-0E9CF144E6CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UANTLR">
+      <UniqueIdentifier>{73A69910-9083-3915-8A8F-5AC2D831AF85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UANTLR\ParserCPP14">
+      <UniqueIdentifier>{E7E67F37-FFCA-35BB-9153-65DB707DDD76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

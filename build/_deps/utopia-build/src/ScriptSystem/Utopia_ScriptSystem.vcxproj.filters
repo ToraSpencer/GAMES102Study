@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitCore.cpp">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitRender.cpp">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitUECS.cpp">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitUGraphviz.cpp">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaContext.cpp">
+      <Filter>ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaCtxMngr.cpp">
+      <Filter>ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaECSAgency.cpp">
+      <Filter>ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaMemory.cpp">
+      <Filter>ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaScriptQueueSystem.cpp">
+      <Filter>ScriptSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\LuaContext.h">
+      <Filter>include\Utopia\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\LuaCtxMngr.h">
+      <Filter>include\Utopia\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\LuaScript.h">
+      <Filter>include\Utopia\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\LuaScriptQueue.h">
+      <Filter>include\Utopia\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\LuaScriptQueueSystem.h">
+      <Filter>include\Utopia\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\include\Utopia\ScriptSystem\details\LuaScriptQueue_AutoRefl.h">
+      <Filter>include\Utopia\ScriptSystem\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitCore.h">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitRender.h">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitUECS.h">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\InitUGraphviz.h">
+      <Filter>ScriptSystem\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\AccessMode.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\ArchetypeFilter_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\ChunkView_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\CmptLocator_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\CmptPtr_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\CmptType_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\CmptsView_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\EntityMngr_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\EntityQuery_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\Entity_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\RTDCmptTraits_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\Schedule_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\SingletonLocator_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\SingletonsView_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\SystemMngr_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\SystemTraits_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\UECS_AutoRefl.h">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UECS_AutoRefl\World_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UECS_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UGraphviz_AutoRefl\Graph_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UGraphviz_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UGraphviz_AutoRefl\Registry_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UGraphviz_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UGraphviz_AutoRefl\SubGraph_AutoRefl.inl">
+      <Filter>ScriptSystem\Init\details\UGraphviz_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\Init\details\UGraphviz_AutoRefl\UGraphviz_AutoRefl.h">
+      <Filter>ScriptSystem\Init\details\UGraphviz_AutoRefl</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaArray.h">
+      <Filter>ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaBuffer.h">
+      <Filter>ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaECSAgency.h">
+      <Filter>ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\LuaMemory.h">
+      <Filter>ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\detail\LuaArray_AutoRefl.inl">
+      <Filter>ScriptSystem\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\detail\LuaBuffer_AutoRefl.inl">
+      <Filter>ScriptSystem\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\detail\LuaECSAgency_AutoRefl.inl">
+      <Filter>ScriptSystem\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\detail\LuaMemory_AutoRefl.inl">
+      <Filter>ScriptSystem\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\utopia-src\src\ScriptSystem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ScriptSystem">
+      <UniqueIdentifier>{5F4649DD-82F2-3C4C-A29F-283236DFC719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptSystem\Init">
+      <UniqueIdentifier>{55A942CC-87DF-3905-9110-A6B00E420304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptSystem\Init\details">
+      <UniqueIdentifier>{56338EF8-D80B-33B9-84DC-FAC39E25FFA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptSystem\Init\details\UECS_AutoRefl">
+      <UniqueIdentifier>{CAAAA658-34CB-3346-851C-5551C60AD187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptSystem\Init\details\UGraphviz_AutoRefl">
+      <UniqueIdentifier>{60C6D720-FE2C-3A7B-911F-0035146B093C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptSystem\detail">
+      <UniqueIdentifier>{83BD1C90-FE8E-3E91-83FC-BEBFE4E0B309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{23C72E37-A886-34C5-8F37-22B41374E3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia">
+      <UniqueIdentifier>{0CF13DD8-1072-342D-BD16-9741F0BC8667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\ScriptSystem">
+      <UniqueIdentifier>{E515E266-6EA1-3E75-BEE8-EABEB1BC874C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utopia\ScriptSystem\details">
+      <UniqueIdentifier>{01FACC4D-761E-3787-89BB-8E79B8F27BE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

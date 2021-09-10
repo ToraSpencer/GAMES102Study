@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw7\Systems\DenoiseSystem.cpp">
+      <Filter>hw7\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\src\hw7\main.cpp">
+      <Filter>hw7</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw7\Components\details\DenoiseData_AutoRefl.inl">
+      <Filter>hw7\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw7\Components\DenoiseData.h">
+      <Filter>hw7\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw7\HEMeshX.h">
+      <Filter>hw7</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\gitRepositories\GAMES102Study\src\hw7\Systems\DenoiseSystem.h">
+      <Filter>hw7\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\a8a317f95a90519fdd74385df80d8a66\DenoiseData_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\src\hw7\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F20F1F4-E635-3FDA-B3BA-735B32F413CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw7">
+      <UniqueIdentifier>{27CBCCFC-3DE2-303A-BC1E-472EC0A3EE00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw7\Components">
+      <UniqueIdentifier>{B21632CA-7202-30B4-83FD-5ED3A44F8166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw7\Components\details">
+      <UniqueIdentifier>{9448B11B-2D49-350B-8B5E-C496B756B2E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw7\Systems">
+      <UniqueIdentifier>{9576F3D1-8CD4-3601-97DA-10710C0DF9BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

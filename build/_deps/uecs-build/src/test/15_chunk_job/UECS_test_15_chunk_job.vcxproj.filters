@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\15_chunk_job\main.cpp">
+      <Filter>15_chunk_job</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\_deps\uecs-src\src\test\15_chunk_job\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="15_chunk_job">
+      <UniqueIdentifier>{E15E7063-7314-3737-AA39-CDB408D201CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
