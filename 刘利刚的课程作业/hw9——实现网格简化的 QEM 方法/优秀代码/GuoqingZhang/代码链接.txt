@@ -1,0 +1,1 @@
+https://github.com/MyEvolution/Dragon/blob/main/src/Geometry/TriangleMesh/Processing/Decimation.h
