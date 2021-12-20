@@ -8,6 +8,9 @@
 
 using namespace Ubpa;
 
+
+
+
 float PAI(const std::vector<Ubpa::pointf2>& P, int j, float x)
 {
 	int n = P.size();
@@ -26,6 +29,7 @@ float PAI(const std::vector<Ubpa::pointf2>& P, int j, float x)
 }
 
 
+// 多项式插值
 float Polynomial(const std::vector<Ubpa::pointf2>& P, float x)
 {
 	int n = P.size();
@@ -38,6 +42,7 @@ float Polynomial(const std::vector<Ubpa::pointf2>& P, float x)
 }
 
 
+// 高斯插值
 float Gauss(const std::vector<Ubpa::pointf2>& P, float x)
 {
 	int n = P.size();
@@ -69,6 +74,7 @@ float Gauss(const std::vector<Ubpa::pointf2>& P, float x)
 }
 
 
+// 最小二乘拟合
 float LeastSquares(const std::vector<Ubpa::pointf2>& P, float x, int m)
 {
 	int n = P.size();
@@ -94,7 +100,7 @@ float LeastSquares(const std::vector<Ubpa::pointf2>& P, float x, int m)
 		Y(i) = P[i][1];
 	}
 	Eigen::VectorXf Theta = (X.transpose() * X).inverse() * X.transpose() * Y;
-	//Eigen::VectorXf Theta = X.bdcSvd(Eigen::ComputeThinU | Eigen::ComputeThinV).solve(Y);
+
 	float result = 0;
 	for (int j=0; j<m; ++j)
 	{
@@ -104,7 +110,7 @@ float LeastSquares(const std::vector<Ubpa::pointf2>& P, float x, int m)
 }
 
 
-// 岭回归
+// 岭回归多项式拟合
 float RidgetRegression(const std::vector<Ubpa::pointf2>& P, float x, float lamda, int m)
 {
 	int n = P.size();

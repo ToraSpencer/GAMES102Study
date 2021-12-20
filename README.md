@@ -50,7 +50,7 @@
 
   
 
-## 框架说明
+## 3. 框架说明
 
 我们提供了 Windows 10 下的 C++ 框架（[project](project)），内含各项作业的子项目，同学可以直接使用其完成作业。
 
@@ -58,7 +58,7 @@
 
 
 
-## 作业文档
+### 作业文档
 
 > 文档中可能包含一些数学公式，GitHub 不支持直接显示数学公式，需要额外设置才能正常显示。
 >
@@ -69,7 +69,7 @@
 
 
 
-## 环境要求
+### 环境要求
 
 - Windows 10
 
@@ -93,7 +93,7 @@
 
 
 
-## 常见问题
+### 常见问题
 
 - 编译时缺失 `atl*` 的话，可以在 vs2019 里选 工具->获取工具和功能->单个组件->搜索 "x64 14.27" 选生成工具，再搜 "atl"，选最下边的“适用于最新 v142 生成工具的 C++ ATL(x86和x64)"
 - 如果启动后，弹出窗口过段时间后程序出错，可尝试（依显卡性能而定）
@@ -104,9 +104,9 @@
 
 
 
-## 构建方法
+### 构建方法
 
-### 方法一
+#### 方法一
 
 此方法完全从源码构建，如果不行请看[方法二](#方法二) 
 
@@ -122,7 +122,7 @@
   
 - 打开项目，在解决方案资源栏里找到 GAMES102_HW_hw1，右键菜单中选“设为启动项目”，然后右键菜单中选“生成”。在等待较长时间的编译完成后，即可在菜单栏中点击“本地 Windows调试器”运行 hw1 空项目。你会看到一个引擎编辑器界面，在 Game 窗口中有 canvas，这将是作业1的所需完成部分。
 
-### 方法 2
+#### 方法 2
 
 此方法使用方便，缺点是不含源码
 
@@ -135,8 +135,8 @@
   - 首次点击 configure 默认就是 vs2019 和 x64，这两者都是必要的
 
 
-
-## 作业 1
+## 4. 作业说明
+### 作业 1
 
 根据作业要求，通过修改 [CanvasSystem.cpp](src/hw1/Systems/CanvasSystem.cpp) 完成作业
 
@@ -172,27 +172,7 @@
 - ECS：以便理解框架的逻辑执行方式，以及代码编写方式。参考资料：[UECS 文档](https://github.com/Ubpa/UECS)，[Unity ECS 文档](https://docs.unity3d.com/Packages/com.unity.entities@0.14/index.html) 
 - ImGui：简单易用的 UI 库。参考资料：[imgui](https://github.com/ocornut/imgui)。（一般直接从官方提供的 [example](https://github.com/ocornut/imgui#demo) 和 [demo](https://github.com/ocornut/imgui/blob/master/imgui_demo.cpp) 源码中学习使用方式）
 
-## 作业 3
-
-根据作业要求，通过修改 [CanvasSystem.cpp](src/hw3/Systems/CanvasSystem.cpp) 完成作业
-
-> 所需数据存放在 [CanvasData.h](src/hw3/Components/CanvasData.h) 中，你可以调整它
-
-作业 3 和作业 1 是类似的
-
-## 作业 4
-
-根据作业要求，通过修改 [CanvasSystem.cpp](src/hw4/Systems/CanvasSystem.cpp) 完成作业
-
-> 所需数据存放在 [CanvasData.h](src/hw4/Components/CanvasData.h) 中，你可以调整它
-
-## 作业 5
-
-根据作业要求，通过修改 [CanvasSystem.cpp](src/hw5/Systems/CanvasSystem.cpp) 完成作业
-
-> 所需数据存放在 [CanvasData.h](src/hw5/Components/CanvasData.h) 中，你可以调整它
-
-## 作业 6
+### 作业 6
 
 根据作业要求，通过修改 [DenoiseSystem.cpp](src/hw6/Systems/DenoiseSystem.cpp) 完成作业
 
@@ -200,7 +180,7 @@
 
 本次主要用到了 [UHEMesh 库](https://github.com/Ubpa/UHEMesh)，课程视频中有其简单介绍，详细请查看源码中各类型（TVertex, TEdge, TPolygon, THalfEdge, HEMesh）接口
 
-### 网格
+#### 网格
 
 点击下边的下载链接，把它们放到 [assets/models/](assets/models/) 下，重启框架即可找到新的 obj 
 
@@ -209,14 +189,6 @@
 - [Cat_head.obj](https://cdn.jsdelivr.net/gh/Ubpa/USTC_CG_Data@master/Homeworks/04_MinSurfMeshPara/mesh/Cat_head.obj) 
 - [David328.obj](https://cdn.jsdelivr.net/gh/Ubpa/USTC_CG_Data@master/Homeworks/04_MinSurfMeshPara/mesh/David328.obj) 
 - [Nefertiti_face.obj](https://cdn.jsdelivr.net/gh/Ubpa/USTC_CG_Data@master/Homeworks/04_MinSurfMeshPara/mesh/Nefertiti_face.obj) 
-
-## 作业 7
-
-根据作业要求，通过修改 [DenoiseSystem.cpp](src/hw6/Systems/DenoiseSystem.cpp) 完成作业
-
-> 所需数据存放在 [DenoiseData.h](src/hw6/Components/DenoiseData.h) 中，你可以调整它
-
-框架涉及内容同于[作业 6](#作业 6)
 
 
 

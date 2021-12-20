@@ -13,6 +13,9 @@ foreach(cmpt ${components})
   list(APPEND refls ${dst})
 endforeach()
 
+find_package(EIGEN3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIRS})
+
 Ubpa_AddTarget(
   TEST
   SOURCE
