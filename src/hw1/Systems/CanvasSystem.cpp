@@ -8,9 +8,6 @@
 
 using namespace Ubpa;
 
-
-
-
 float PAI(const std::vector<Ubpa::pointf2>& P, int j, float x)
 {
 	int n = P.size();

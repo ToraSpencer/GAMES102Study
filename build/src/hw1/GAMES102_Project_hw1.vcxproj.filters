@@ -23,7 +23,6 @@
     <CustomBuild Include="G:\gitRepositories\GAMES102Study\build\CMakeFiles\0dc1c080b604ba21af8f7164dbbf830d\CanvasData_AutoRefl.inl.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="G:\gitRepositories\GAMES102Study\src\hw1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="G:\gitRepositories\GAMES102Study\build\_deps\ugm-src\vs\UGM.natvis" />

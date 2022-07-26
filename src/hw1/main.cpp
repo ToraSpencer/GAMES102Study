@@ -20,14 +20,14 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmdLine, in
 #endif
 
 	int rst;
-    try {
+    try 
+    {
         Editor app(hInstance);
         if(!app.Init())
             return 1;
 
         auto game = app.GetGameWorld();
         game->systemMngr.RegisterAndActivate<CanvasSystem>();
-        
         game->entityMngr.cmptTraits.Register<CanvasData>();
         game->entityMngr.Create<CanvasData>();
 
@@ -38,6 +38,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmdLine, in
 		MessageBox(nullptr, e.ToString().c_str(), L"HR Failed", MB_OK);
         rst = 1;
 	}
+
 
 #ifndef NDEBUG
 	Microsoft::WRL::ComPtr<IDXGIDebug> debug;

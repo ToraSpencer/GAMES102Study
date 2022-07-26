@@ -7,7 +7,6 @@ using namespace Ubpa;
 
 
 // note : 优秀作业——152_Tan_Morgan_HW3
-
 void Gaussian(const std::vector<float> &xs, std::vector<float> ys, std::vector<float>& ret, int n_ret=-1)
 {
 	int n = (int)xs.size();
@@ -50,8 +49,6 @@ void Gaussian(const std::vector<float> &xs, std::vector<float> ys, std::vector<f
 	}
 
 }
-
-
 
 //  曲线参数化： mode = [1, 2, 3, 4]——1. Uniform 2. Chord 3. Centripetal 4. Foley
 void CurveParameterize(const std::vector<pointf2> points, int mode, std::vector<pointf2>& ret)
